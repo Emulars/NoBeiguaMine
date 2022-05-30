@@ -1,0 +1,13 @@
+@use '@material/switch';
+@use '@material/theme/color-palette';
+@use '@material/theme/shadow-dom';
+ 
+// Include for IE11 support
+// @include shadow-dom.enable-css-selector-fallback-declarations(true);
+ 
+.my-switch {
+  @include switch.theme((
+    //selected-handle-color: color-palette.$teal-600,
+    //selected-track-color: color-palette.$teal-300,
+  ));
+}

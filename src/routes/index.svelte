@@ -1,41 +1,104 @@
 <script lang="ts">
-	import Button, { Label, Icon } from '@smui/button';
-	import Card from "./card.svelte"
+	import Button, { Label, Icon } from "@smui/button";
+	import Nav from "./__layout.svelte";
+	import Card from "./card.svelte";
+	import Head from "./head.svelte";
+</script>
 
-	let clicked = 0;
+<div class="main">
+	<Head />
+	<h1 class="News">Ultime Notizie</h1>
+	<div class="cards">
+		<!--CARDS-->
+		<Card />
+		<Card />
+		<Card />
+	</div>
+</div>
 
-	function handleClick(event: CustomEvent | MouseEvent) {
-		event = event as MouseEvent;
-		if (event.button === 0) {
-			clicked++;
+<style>
+	/* @media only screen and (min-width: 600px) {
+		.Porco {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+		.lol {
+			display: inline-flexbox;
+			justify-content: space-around;
+			margin-top: 10px;
+			padding: 30px;
+		}
+	}
+	@media only screen and (min-width: 768px) {
+		.Porco {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+		
+		.lol {
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.Card {
+			display: inline-flex;
+			margin: 50px;
+			color:blueviolet ;
+		}
+	} */
+
+	/* Extra small devices (phones, 600px and down) */
+	@media only screen and (max-width: 600px) {
+		.cards{
+			display: flex;
+    		flex-direction: column;
+			margin: 10px;
+			justify-content: space-evenly;
 		}
 	}
 
-	function reset() {
-		clicked = 0;
+	/* Small devices (portrait tablets and large phones, 600px and up) */
+	@media only screen and (min-width: 600px) {
+		.cards{
+			display: flex;
+    		flex-direction: column;
+			justify-content: space-evenly;
+		}
 	}
-</script>
 
-
-<!--CARDS-->
-<Card/>
-
-
-<Button on:mousedown={handleClick}>
-	<Icon class="material-icons">thumb_up</Icon>
-	<Label>Click Me</Label>
-</Button>
-<p class="mdc-typography--body1">
-	{#if clicked}
-		You've clicked the button {clicked} time{clicked === 1 ? '' : 's'}. You can
-		<a on:click={reset} href="javascript:void(0);">reset it</a>.
-	{:else}
-		<span class="grayed">You haven't clicked the button.</span>
-	{/if}
-</p>
-
-<style>
-	.grayed {
-		opacity: 0.6;
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (min-width: 768px) {
+		/* qui e' la modifica pper la responsive*/
+		.cards{
+			display: flex;
+    		flex-direction: column;
+			justify-content: space-evenly;
+		}
 	}
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) {
+		.cards{
+			display: flex;
+    		flex-direction: row;
+			justify-content: space-evenly;
+		}
+
+	}
+
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) {
+		.cards{
+			display: flex;
+    		flex-direction: row;
+			justify-content: space-evenly;
+		}
+
+	}
+	.News{
+		text-align: center;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	}
+
 </style>
