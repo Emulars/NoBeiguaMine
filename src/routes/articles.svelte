@@ -1,42 +1,50 @@
 <script lang="ts">
-	import Button, { Label, Icon } from "@smui/button";
 	import Card from "./card.svelte";
-	import Hero_img from "../images/2.jpg";
 </script>
 
 <div class="main">
-	<!-- Hero -->
-	<div class="Hero">
-		<img class="Hero" src={Hero_img} alt="Hero" />
-	</div>
 
-	<!-- Cards -->
-	<div class="mdc-typography--headline3 News"> - Ultime Notizie - </div>
-	<div class="cards">
+    <div class="mdc-typography--headline3 Title"> - Articoli - </div>
+
+    <div class="cards">
 		<!--CARDS-->
 		<Card />
 		<Card />
 		<Card />
 	</div>
+
+    <div class="cards">
+		<!--CARDS-->
+		<Card />
+		<Card />
+		<Card />
+	</div>
+
+    <div class="cards">
+		<!--CARDS-->
+		<Card />
+		<Card />
+		<Card />
+	</div>
+
+    <div class="cards">
+		<!--CARDS-->
+		<Card />
+		<Card />
+		<Card />
+	</div>
+
 </div>
 
 
 <style>
-	.News{ 
+
+    .Title{ 
 		text-align: center;
 		margin-top: 1%;
 	}
 
-	.Hero{
-        width: 100%;
-        height: 15%;
-		background-image: "../images/2.jpg";
-		background-size: contain;
-    }
-
-
-
-	/* Extra small devices (phones, 600px and down) */
+    /* Extra small devices (phones, 600px and down) */
 	@media only screen and (max-width: 600px) {
 		.cards{
 			display: flex;

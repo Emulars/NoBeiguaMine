@@ -1,63 +1,38 @@
+
 <script lang="ts">
 	import Button from "@smui/button";
 	import type { TopAppBarComponentDev } from "@smui/top-app-bar";
-	import TopAppBar, {
-		Row,
-		Section,
-		Title,
-		AutoAdjust,
-	} from "@smui/top-app-bar";
-	import { Label, Icon } from "@smui/common";
-	import Logo from "C://Users/Giorg/Desktop/WEBDESIGN/1.png";
-	import Switch2 from "./switch.svelte";
-
+	import TopAppBar, { Row, Section, Title, AutoAdjust } from "@smui/top-app-bar";
+	import { Label, Icon} from "@smui/common";
 	let topAppBar: TopAppBarComponentDev;
 
-	let lightTheme =
-		typeof window === "undefined" ||
-		window.matchMedia("(prefers-color-scheme: -light)").matches;
-	function switchTheme() {
-		lightTheme = !lightTheme;
-		let themeLink = document.head.querySelector<HTMLLinkElement>("#theme");
-		if (!themeLink) {
-			themeLink = document.createElement("link");
-			themeLink.rel = "stylesheet";
-			themeLink.id = "theme";
-		}
-		themeLink.href = `/smui${lightTheme ? "" : "-dark"}.css`;
-		document.head
-			.querySelector<HTMLLinkElement>('link[href$="/smui-dark.css"]')
-			?.insertAdjacentElement("afterend", themeLink);
-	}
+	// Scroll bar
+
+
+	// Image
+	import Logo from "../images/1.png";
+
 </script>
 
-<div>
-	<TopAppBar bind:this={topAppBar} variant="standard">
-		<Row>
-			<Section>
-				<!-- mettere Logo -->
-				<img class="LogoP" src={Logo} alt="My logo" />
-			</Section>
-			<Section align="end" toolbar>
-				<Button aria-label="" href="http://localhost:3000/articoli/">
-					<!-- mettere le bottoni delle pagine -->
 
-					<span>Articoli</span>
-				</Button>
-				<Button aria-label="" href="http://localhost:3000/cronostorie/">
-					<!-- mettere le bottoni delle pagine -->
+<TopAppBar bind:this={topAppBar} variant="standard" fill-color="#000">
+	<Row>
+		<!-- LOGO -->
+		<Section>
+			<a href="http://localhost:3000/"><img class="LogoP" src={Logo} alt="My logo"/></a>
+		</Section>
 
-					<span>Cronostorie</span>
-				</Button>
-				<Button>
-					<Switch2 on:click={switchTheme}>
-						<Label>{!lightTheme ? "Lights off" : "Lights on"}</Label>
-					</Switch2>
-				</Button>
-			</Section>
-		</Row>
-	</TopAppBar>
-</div>
+		<!-- MENU -->
+		<Section align="end" toolbar>
+			<Button aria-label="" href="/articles">
+				<span>Articoli</span>
+			</Button>
+			<Button aria-label="" href="/timeline">
+				<span>Cronistoria</span>
+			</Button>
+		</Section>
+	</Row>
+</TopAppBar>
 
 <AutoAdjust {topAppBar}>
 	<div class="container">
@@ -65,10 +40,25 @@
 	</div>
 </AutoAdjust>
 
+<div class="footer">
+	<p>Footer</p>
+</div>
+
 <style>
 	.LogoP {
 		width: 10vh;
 		align-items: center;
+	}
+
+	.footer {
+		position: absolute;
+  		bottom: 0;
+  		width: 100%;
+  		height: 50px;
+		margin-top: -200px;
+		background-color: #557B83;
+		color: white;
+		text-align: center;
 	}
 
 	/* Extra small devices (phones, 600px and down) */
@@ -100,3 +90,4 @@
 	@media only screen and (min-width: 1200px) {
 	}
 </style>
+
