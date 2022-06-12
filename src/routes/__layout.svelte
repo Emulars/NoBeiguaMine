@@ -3,19 +3,27 @@
 	import Button from "@smui/button";
 	import type { TopAppBarComponentDev } from "@smui/top-app-bar";
 	import TopAppBar, { Row, Section, Title, AutoAdjust } from "@smui/top-app-bar";
-	import { Label, Icon} from "@smui/common";
+	// import { Label, Icon} from "@smui/common";
 	let topAppBar: TopAppBarComponentDev;
 
 	// Scroll bar
 
+	//For download icon
+	//https://materialdesignicons.com/
 
 	// Image
-	import Logo from "../images/1.png";
+	import Logo from "../images/LBlack.png";
+	import Logofooter from "../images/LWhite.png";
+	import Map from "../images/map.png";
+	import Phone from "../images/phone.png";
+	import At from "../images/at.png";
+	import mont3 from "../images/3.jpg";
+	import mont4 from "../images/4.jpg";
 
 </script>
 
 
-<TopAppBar bind:this={topAppBar} variant="standard" fill-color="#000">
+<TopAppBar bind:this={topAppBar} variant="standard" fill-color="#0000	">
 	<Row>
 		<!-- LOGO -->
 		<Section>
@@ -41,24 +49,85 @@
 </AutoAdjust>
 
 <div class="footer">
-	<p>Footer</p>
+	<span class="block">
+		<div class="disposition">
+			<img class="logoFooter" src={Logofooter} alt="My logo"/>
+			<div class="iconf"><img style="height: 20px; width:20px; margin-right:10px;" src={Map} alt="address"/><p>Indirizzo sede amministrativa</p></div>
+			<div class="iconf"><img style="height: 20px; width:20px; margin-right:10px;" src={Phone} alt="number"/><p>(+39)1111111111</p></div>
+			<div class="iconf"><img style="height: 20px; width:20px; margin-right:10px;" src={At} alt="email"/><p>esempio@gmail.com</p></div>
+		</div>
+		<div class="disposition">
+			<br>
+			<p><b>MENU</b></p>
+			<br>
+			<br>
+			<a class="links" href="/articles">Articoli</a><br><br>
+			<a class="links" href="/timeline">Cronostoria</a><br><br>
+			<a class="links" href="/chisiamo">Chi siamo</a>
+		</div>
+		<div class="smallCard">
+			<img src={mont3} alt="article 1"/>
+			<img src={mont4} alt="article 2"/>
+		</div>
+	</span>
 </div>
 
 <style>
-	.LogoP {
-		width: 10vh;
-		align-items: center;
+	.disposition{
+		padding-left: 3%;
+		padding-right: 15%;
+		text-align: left;
+	}
+	
+	.iconf{
+		display: flex;
+        align-items: center;
+        justify-content: left;	
+	}
+	
+	.smallCard,img{
+		height: 40%; 
+		width: 40%;
+		margin: 2px;
 	}
 
 	.footer {
-		position: absolute;
   		bottom: 0;
   		width: 100%;
-  		height: 50px;
-		margin-top: -200px;
+  		height: 100%;
+		margin: 0px 0px 0px 0px;
 		background-color: #557B83;
 		color: white;
 		text-align: center;
+		padding-top: 20px;
+	}
+
+	.block{
+		text-align: left;
+		display: flex;
+		
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		color: white;
+		font-size: 20px;
+	}
+	.links{
+		color: white;
+		text-decoration: none; ;
+	}
+
+	.logoFooter{
+		width: 150px;
+		margin: 0px 0px 0px 0px;
+		justify-content: left;
+
+	}
+
+	.LogoP {
+		width: 69px;
+		align-items: center;
+		margin:44px;
 	}
 
 	/* Extra small devices (phones, 600px and down) */
