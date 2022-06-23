@@ -8,7 +8,7 @@ An example project implementing [Svelte Material UI](https://github.com/hperrin/
 2. `npm install`
 3. `npm run dev`
 4. http://localhost:3000
-
+5. if you want rebuild `npm run prepare`
 # A Note About SvelteKit
 
 From the SvelteKit website:

@@ -2,6 +2,7 @@
 	// import Button, { Label, Icon } from "@smui/button";
 	import Card from "./card.svelte";
 	import Hero from "./head.svelte";
+	import Timel from "./timeline_new.svelte"
 </script>
 
 <div class="main">
@@ -9,16 +10,10 @@
 	<div >
 		<!--<img class="imgHero" src={Hero_img} alt="Hero" />-->
 		<Hero />
+		<Timel/>
 	</div>
 
-	<!-- Cards -->
-	<div class="mdc-typography--headline3 News">- Ultime Notizie -</div>
-	<div class="cards">
-		<!--CARDS-->
-		<Card />
-		<Card />
-		<Card />
-	</div>
+	
 </div>
 
 <style>
