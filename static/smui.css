@@ -2772,7 +2772,8 @@ svg.mdc-button__icon {
 
 .mdc-top-app-bar__section--align-start {
     justify-content: flex-start;
-    order: -1
+    order: -1;
+    margin-left: 70px;
 }
 
 .mdc-top-app-bar__section--align-end {
@@ -2966,7 +2967,7 @@ svg.mdc-button__icon {
 
 @media(max-width: 599px) {
     .mdc-top-app-bar__row {
-        height: 56px
+        height: 80px
     }
     .mdc-top-app-bar__section {
         padding: 4px

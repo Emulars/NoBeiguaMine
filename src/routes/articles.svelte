@@ -1,54 +1,59 @@
 <script lang="ts">
 	import Card from "./card.svelte";
+	import Hidden from "./Hidden.svelte";
+	let child;
+	
 </script>
 
 <div class="main">
+	<div class="mdc-typography--headline3 Title">- Articoli -</div>
 
-    <div class="mdc-typography--headline3 Title"> - Articoli - </div>
+	<div class="cards">
+		<!--CARDS-->
+		<Card />
+		<Card/>
+		<Card />
+	</div>
 
-    <div class="cards">
+	<div class="cards">
 		<!--CARDS-->
 		<Card />
 		<Card />
 		<Card />
 	</div>
 
-    <div class="cards">
+	<div class="cards">
 		<!--CARDS-->
 		<Card />
 		<Card />
 		<Card />
 	</div>
 
-    <div class="cards">
-		<!--CARDS-->
-		<Card />
-		<Card />
-		<Card />
-	</div>
+	
+	<Hidden bind:this={child} on:show={(e) => (child.shown = e.detail)}>
+	</Hidden>
 
-    <div class="cards">
-		<!--CARDS-->
-		<Card />
-		<Card />
-		<Card />
-	</div>
-
+	{#if child && child.shown}
+		<div class="cards">
+			<Card />
+			<Card />
+			<Card />
+	</div> 
+	{/if}
+	<!-- -->
 </div>
 
-
 <style>
-
-    .Title{ 
+	.Title {
 		text-align: center;
-		margin-top: 1%;
+		margin-top: 30px;
 	}
 
-    /* Extra small devices (phones, 600px and down) */
+	/* Extra small devices (phones, 600px and down) */
 	@media only screen and (max-width: 600px) {
-		.cards{
+		.cards {
 			display: flex;
-    		flex-direction: column;
+			flex-direction: column;
 			margin: 10px;
 			justify-content: space-evenly;
 		}
@@ -56,9 +61,9 @@
 
 	/* Small devices (portrait tablets and large phones, 600px and up) */
 	@media only screen and (min-width: 600px) {
-		.cards{
+		.cards {
 			display: flex;
-    		flex-direction: column;
+			flex-direction: column;
 			justify-content: space-evenly;
 		}
 	}
@@ -66,30 +71,28 @@
 	/* Medium devices (landscape tablets, 768px and up) */
 	@media only screen and (min-width: 768px) {
 		/* qui e' la modifica pper la responsive*/
-		.cards{
+		.cards {
 			display: flex;
-    		flex-direction: column;
+			flex-direction: column;
 			justify-content: space-evenly;
 		}
 	}
 
 	/* Large devices (laptops/desktops, 992px and up) */
 	@media only screen and (min-width: 992px) {
-		.cards{
+		.cards {
 			display: flex;
-    		flex-direction: row;
+			flex-direction: row;
 			justify-content: space-evenly;
 		}
-
 	}
 
 	/* Extra large devices (large laptops and desktops, 1200px and up) */
 	@media only screen and (min-width: 1200px) {
-		.cards{
+		.cards {
 			display: flex;
-    		flex-direction: row;
+			flex-direction: row;
 			justify-content: space-evenly;
 		}
-
 	}
 </style>
