@@ -1,9 +1,18 @@
 <script lang="ts">
 	import Card from "./card.svelte";
-	import Hidden from "./Hidden.svelte";
-	let child;
 	
+	/* Button */
+	import { createEventDispatcher } from 'svelte';
+    let shown = false;
+	let dispatch = createEventDispatcher();
+	export function show() {
+		shown = !shown;
+		dispatch('show', shown);
+	}
+
 </script>
+
+<svelte:options accessors={true}/>
 
 <div class="main">
 	<div class="mdc-typography--headline3 Title">- Articoli -</div>
@@ -29,18 +38,15 @@
 		<Card />
 	</div>
 
-	
-	<Hidden bind:this={child} on:show={(e) => (child.shown = e.detail)}>
-	</Hidden>
+	<button on:click={show}>Mostra altri Articoli</button>
 
-	{#if child && child.shown}
+	{#if shown}
 		<div class="cards">
 			<Card />
 			<Card />
 			<Card />
 	</div> 
 	{/if}
-	<!-- -->
 </div>
 
 <style>
@@ -48,7 +54,6 @@
 		text-align: center;
 		margin-top: 30px;
 	}
-
 	/* Extra small devices (phones, 600px and down) */
 	@media only screen and (max-width: 600px) {
 		.cards {

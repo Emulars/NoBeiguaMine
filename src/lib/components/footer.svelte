@@ -11,6 +11,7 @@
 
 
 <main>
+	<!-- Desktop -->
 	<MediaQuery query="(min-width: 1281px)" let:matches>
         {#if matches}
         <div class="root desktop">
@@ -52,14 +53,122 @@
 						<a class="links" href="/timeline">Cronostoria</a><br /><br />
 						<a class="links" href="/chisiamo">Chi siamo</a>
 					</div>
+					<!--
 					<div class="smallCard">
 						<Newsfooter></Newsfooter>
 					</div>
+					-->
 				</span>
 			</div>
         </div>
         {/if}
     </MediaQuery>
+
+	<!-- Tablet -->
+	<MediaQuery query="(min-width: 481px) and (max-width: 1280px)" let:matches>
+        {#if matches}
+        <div class="root tablet">
+            <div class="footer">
+				<span class="block">
+					<div class="disposition">
+						<img class="logoFooter" src={Logofooter} alt="My logo" />
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={Map}
+								alt="address"
+							/>
+							<p>indirizzo sede amministrativa</p>
+						</div>
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={Phone}
+								alt="number"
+							/>
+							<p>(+39) 342 1234567</p>
+						</div>
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={At}
+								alt="email"
+							/>
+							<p>infp@mountance.it</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="disposition">
+						<hr class="solid" />
+						<p><b>MENU</b></p>
+			
+						<a class="links" href="/articles">Articoli</a><br /><br />
+						<a class="links" href="/timeline">Cronostoria</a><br /><br />
+						<a class="links" href="/chisiamo">Chi siamo</a>
+					</div>
+					<!--
+					<div class="smallCard">
+						<Newsfooter></Newsfooter>
+					</div>
+					-->
+				</span>
+			</div>
+        </div>
+        {/if}
+    </MediaQuery>
+
+	<!-- Mobile -->
+	<MediaQuery query="(max-width: 480px)" let:matches>
+        {#if matches}
+        <div class="root mobile">
+			<div class="footer">
+				<span class="block">
+					<div class="disposition">
+						<img class="logoFooter" src={Logofooter} alt="My logo" />
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={Map}
+								alt="address"
+							/>
+							<p>indirizzo sede amministrativa</p>
+						</div>
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={Phone}
+								alt="number"
+							/>
+							<p>(+39) 342 1234567</p>
+						</div>
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={At}
+								alt="email"
+							/>
+							<p>infp@mountance.it</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="disposition">
+						<hr class="solid" />
+						<p><b>MENU</b></p>
+			
+						<a class="links" href="/articles">Articoli</a><br /><br />
+						<a class="links" href="/timeline">Cronostoria</a><br /><br />
+						<a class="links" href="/chisiamo">Chi siamo</a>
+					</div>
+					<!--
+					<div class="smallCard">
+						<Newsfooter></Newsfooter>
+					</div>
+					-->
+				</span>
+			</div>
+        </div>
+        {/if}
+    </MediaQuery> 
 </main>
 
 <style>
@@ -118,11 +227,40 @@
 	}
 
 	/* Desktop 1281px or higher*/
-	.desktop hr.solid {
+	/* Tablet 481px-1281px*/
+	.desktop .tablet hr.solid {
 		display: none;
 	}
-
-	/* Tablet 1281px or higher*/
+	
+	/* Mobile 480px or lower*/
+	.mobile hr.solid {
+		border-top: 3px solid #bbb;
+	}
+	.mobile .block {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		color: white;
+		font-size: 20px;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: nowrap;
+		text-align: center;
+	}
+	.mobile .logoFooter {
+		width: 150px;
+		justify-content: center;
+	}
+	.mobile .iconf {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mobile .disposition {
+		font-family: "Roboto Light", sans-serif;
+		text-align: center;
+	}
 </style>
 
 

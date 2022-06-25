@@ -1,8 +1,6 @@
 <script>
-	// import Button, { Label, Icon } from "@smui/button";
-	import Card from "./card.svelte";
-	import Hero from "./head.svelte";
-	import News from "./news.svelte";
+	import Hero from "../lib/components/head.svelte";
+	import News from "../lib/collection/news.svelte";
 	import Timel from "./timeline_new.svelte";
 </script>
 

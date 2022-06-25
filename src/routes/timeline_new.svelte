@@ -1,7 +1,7 @@
 <script>
 	import { Parallax, ParallaxLayer } from "svelte-parallax";
 	import Logo from "../images/LBlack.png";
-	import News from "./news.svelte";
+	import News from "../lib/collection/news.svelte";
 	import titanium from "../images/tita.png";
 	import imgmidc from "../images/beiglarge.jpg";
 	import imglastc from "../images/cartB.png";

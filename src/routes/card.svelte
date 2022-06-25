@@ -17,7 +17,7 @@
 <div class="card-container">
   <Card>
     <PrimaryAction on:click={() => clicked++}>
-      <Media class="card-media-16x9" aspectRatio="16x9" />
+      <Media class="card-media-16x9" aspectRatio="16x9"/>
       <Content class="mdc-typography--body2">
         <h2 class="mdc-typography--headline6" style="margin: 0;">
           A card with media.
@@ -31,15 +31,12 @@
         It's all in this card. It's a veritable smorgasbord of card features.
       </Content>
     </PrimaryAction>
-    <Actions>
-      
-    </Actions>
   </Card>
 </div>
 
 <style>
   * :global(.card-media-16x9) {
-    background-image: url(https://place-hold.it/320x180?text=16x9&fontsize=23);
+    background-image: url(https://dummyimage.com/600x400/000/fff);
   }
   
 
