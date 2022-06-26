@@ -65,7 +65,7 @@
     width: 90%;
   }
   .card-container{
-    margin:20px;
+        margin:20px;
         width: 70%;
         height: 10%;
     }
@@ -104,12 +104,6 @@
         * :global() {
              display: inline-flex; 
             margin: 30px;
-        }
-    }
-    @media only screen and (max-width: 1200px) {
-        * :global() {
-             display: inline-flex; 
-            margin: 20px;
         }
     } */
 </style>
