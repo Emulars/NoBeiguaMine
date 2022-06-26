@@ -1,18 +1,21 @@
 <script lang="ts">
 	import Card from "./card.svelte";
 	import Hidden from "./Hidden.svelte";
+	import Card_1 from "../lib/components/card_articles/Card_1.svelte";
+	import Card_2 from "../lib/components/card_articles/Card_2.svelte";
+	import Card_3 from "../lib/components/card_articles/Card_3.svelte";
+
 	let child;
-	
 </script>
 
 <div class="main">
 	<div class="mdc-typography--headline3 Title">- Articoli -</div>
-
+<div class="arts-pages">
 	<div class="cards">
 		<!--CARDS-->
-		<Card />
-		<Card/>
-		<Card />
+		<Card_1 />
+		<Card_2 />
+		<Card_3 />
 	</div>
 
 	<div class="cards">
@@ -28,18 +31,18 @@
 		<Card />
 		<Card />
 	</div>
+</div>
+	<div>
+		<Hidden bind:this={child} on:show={(e) => (child.shown = e.detail)} />
 
-	
-	<Hidden bind:this={child} on:show={(e) => (child.shown = e.detail)}>
-	</Hidden>
-
-	{#if child && child.shown}
-		<div class="cards">
-			<Card />
-			<Card />
-			<Card />
-	</div> 
-	{/if}
+		{#if child && child.shown}
+			<div class="cards">
+				<Card />
+				<Card />
+				<Card />
+			</div>
+		{/if}
+	</div>
 	<!-- -->
 </div>
 
@@ -54,7 +57,7 @@
 		.cards {
 			display: flex;
 			flex-direction: column;
-			margin: 10px;
+			margin: 20px;
 			justify-content: space-evenly;
 		}
 	}
@@ -64,7 +67,8 @@
 		.cards {
 			display: flex;
 			flex-direction: column;
-			justify-content: space-evenly;
+			justify-content: center;
+			margin: 20px;
 		}
 	}
 
@@ -74,16 +78,20 @@
 		.cards {
 			display: flex;
 			flex-direction: column;
-			justify-content: space-evenly;
+			margin: 80px;
+			justify-content: center;
+			height: 20%;
 		}
 	}
 
 	/* Large devices (laptops/desktops, 992px and up) */
-	@media only screen and (min-width: 992px) {
+	@media only screen and (max-width: 992px) {
 		.cards {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-evenly;
+			margin-left:10%;
+			margin-right: 10%;
+			height: 20%;
 		}
 	}
 
@@ -92,7 +100,8 @@
 		.cards {
 			display: flex;
 			flex-direction: row;
-			justify-content: space-evenly;
+			margin-left:10%;
+			margin-right: 10%;
 		}
 	}
 </style>
