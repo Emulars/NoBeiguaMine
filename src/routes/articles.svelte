@@ -10,7 +10,10 @@
 		shown = !shown;
 		dispatch('show', shown);
 	}
-
+	import Card_1 from "$lib/components/card_articles/Card_1.svelte";
+	import Card_2 from "$lib/components/card_articles/Card_2.svelte";
+	import Card_3 from "$lib/components/card_articles/Card_3.svelte";
+	
 </script>
 
 <svelte:options accessors={true}/>
@@ -27,9 +30,9 @@
 		
 			<div class="cards">
 				<!--CARDS-->
-				<Card />
-				<Card/>
-				<Card />
+				<Card_1 />
+				<Card_2/>
+				<Card_3/>
 			</div>
 		
 			<div class="cards">
