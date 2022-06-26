@@ -1,12 +1,27 @@
 <script lang="ts">
 	import Card from "./card.svelte";
+<<<<<<< HEAD
 	import Hidden from "./Hidden.svelte";
 	import Card_1 from "../lib/components/card_articles/Card_1.svelte";
 	import Card_2 from "../lib/components/card_articles/Card_2.svelte";
 	import Card_3 from "../lib/components/card_articles/Card_3.svelte";
 
 	let child;
+=======
+	
+	/* Button */
+	import { createEventDispatcher } from 'svelte';
+    let shown = false;
+	let dispatch = createEventDispatcher();
+	export function show() {
+		shown = !shown;
+		dispatch('show', shown);
+	}
+
+>>>>>>> 23b2c0299d294c14d412c07060650c26c872520c
 </script>
+
+<svelte:options accessors={true}/>
 
 <div class="main">
 	<div class="mdc-typography--headline3 Title">- Articoli -</div>
@@ -35,6 +50,7 @@
 	<div>
 		<Hidden bind:this={child} on:show={(e) => (child.shown = e.detail)} />
 
+<<<<<<< HEAD
 		{#if child && child.shown}
 			<div class="cards">
 				<Card />
@@ -44,6 +60,17 @@
 		{/if}
 	</div>
 	<!-- -->
+=======
+	<button on:click={show}>Mostra altri Articoli</button>
+
+	{#if shown}
+		<div class="cards">
+			<Card />
+			<Card />
+			<Card />
+	</div> 
+	{/if}
+>>>>>>> 23b2c0299d294c14d412c07060650c26c872520c
 </div>
 
 <style>
@@ -51,7 +78,6 @@
 		text-align: center;
 		margin-top: 30px;
 	}
-
 	/* Extra small devices (phones, 600px and down) */
 	@media only screen and (max-width: 600px) {
 		.cards {
