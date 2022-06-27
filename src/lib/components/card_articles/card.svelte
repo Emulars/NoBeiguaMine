@@ -122,6 +122,10 @@
     background-image: url(https://dummyimage.com/600x400/000/fff);
   }
   
+  * :global(.mdc-card){
+    box-shadow: none;
+  }
+
   .desktop :global(){
     display:flow-root;
     margin: 20px;

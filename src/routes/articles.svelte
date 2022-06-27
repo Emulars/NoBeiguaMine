@@ -30,7 +30,7 @@
 		
 			<div class="cards">
 				<!--CARDS-->
-				<Card_1 />
+				<Card_1/>
 				<Card_2/>
 				<Card_3/>
 			</div>
@@ -77,13 +77,13 @@
 		
 			<div class="cards">
 				<!--CARDS-->
-				<Card />
-				<Card/>
+				<Card_1/>
+				<Card_2/>
 			</div>
 		
 			<div class="cards">
 				<!--CARDS-->
-				<Card />
+				<Card_3/>
 				<Card/>
 			</div>
 
@@ -119,9 +119,9 @@
 		
 			<div class="cards">
 				<!--CARDS-->
-				<Card />
-				<Card/>
-				<Card />
+				<Card_1/>
+				<Card_2/>
+				<Card_3/>
 				<Card />
 				<Card />
 				<Card />

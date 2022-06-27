@@ -1,22 +1,14 @@
 <script lang="ts">
-  import Card, {
-      Content,
-      PrimaryAction,
-      Media,
-      MediaContent,
-      Actions,
-      ActionButtons,
-      ActionIcons,
-  } from "@smui/card";
-  import Button, { Label } from "@smui/button";
-  import IconButton, { Icon } from "@smui/icon-button";
-  import mnt from "../../../images/beiglarge.jpg";
+  import Card, {Content, PrimaryAction, Media, MediaContent, Actions, ActionButtons, ActionIcons,} from "@smui/card";
 
   function clickinner() {
       // Target refers to the clicked element
       window.location.href = "./Art/Article_5";
-      //
   }
+
+    const title = "";
+    const subTitle = "";
+    const content = "";
 </script>
 
 <div class="card-container">
