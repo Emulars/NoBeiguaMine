@@ -20,14 +20,13 @@
 
 
 <main>
+
+	<div class="mdc-typography--headline3 title">- Articoli -</div>
+
 	<!-- Desktop -->
 	<MediaQuery query="(min-width: 992px)" let:matches>
         {#if matches}
         <div class="root desktop">
-            <div class="title">
-				<div class="mdc-typography--headline3">- Articoli -</div>
-			</div>
-		
 			<div class="cards">
 				<!--CARDS-->
 				<Card_1/>
@@ -71,10 +70,6 @@
     <MediaQuery query="(min-width: 768px) and (max-width: 991px)" let:matches>
         {#if matches}
         <div class="root tablet">
-            <div class="title">
-				<div class="mdc-typography--headline3">- Articoli -</div>
-			</div>
-		
 			<div class="cards">
 				<!--CARDS-->
 				<Card_1/>
@@ -113,10 +108,6 @@
     <MediaQuery query="(max-width: 767px)" let:matches>
         {#if matches}
         <div class="root mobile">
-			<div class="title">
-				<div class="mdc-typography--headline3">- Articoli -</div>
-			</div>
-		
 			<div class="cards">
 				<!--CARDS-->
 				<Card_1/>
@@ -141,8 +132,12 @@
 <style>
 	.title {
 		text-align: center;
+		font-family:'Oswald',sans-serif;
 		margin-top: 125px;
 		margin-bottom: 30px;
+		text-decoration: underline;
+		text-underline-offset: 0.5em;
+		color: #39AEA9;
 	}
 
 	.more_articles {

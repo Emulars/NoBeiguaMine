@@ -140,6 +140,7 @@
     .title{
         margin-top: 30px;
         margin-bottom: 15px;
+        font-family:'Oswald',sans-serif;
     }
 
     .desktop .cards{

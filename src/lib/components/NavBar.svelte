@@ -35,7 +35,7 @@
                         <Button aria-label="" href="/articles">
                             <span>Articoli</span>
                         </Button>
-                        <Button aria-label="" href="/timeline">
+                        <Button aria-label="" href="/timeline_parallax">
                             <span>Cronistoria</span>
                         </Button>
                     </Section>

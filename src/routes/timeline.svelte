@@ -69,8 +69,8 @@
 
 <div class="main">
 
-	<div class="mdc-typography--headline3 Title"> - Cronistoria - </div>
-	<div class="mdc-typography--body1 SubTitle">del giacimento di titanio nel parco del beigua</div>
+	<div class="mdc-typography--headline3 title"> - Cronistoria - </div>
+	<div class="mdc-typography--body1 subTitle">del giacimento di titanio nel parco del beigua</div>
 
 
 	<Timeline position="alternate" style={`	border-radius: 3%;	padding: 1rem;`}>
@@ -91,15 +91,18 @@
 			</TimelineItem>
 		{/each}
 	</Timeline>
+
+	<div class="spacer"/>
 </div>
 
 <style>
 
-	.Title{ 
+	.title{ 
 		text-align: center;
-		margin-top: 1%;
+		margin-top: 125px;
+		margin-bottom: 30px;
 	}
-	.SubTitle{ text-align: center;}
+	.subTitle{ text-align: center;}
 
 	.oposite-content-title {
 		margin: 0;
@@ -117,5 +120,10 @@
 		color: #000;
 		font-weight: lighter;
 		padding: 0.5rem 0;
+	}
+
+	.spacer{
+		margin-top: 15px;
+		margin-bottom: 30px;
 	}
 </style>
