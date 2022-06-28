@@ -147,8 +147,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        width: 50%;
-        height: 50%;
+        /*width: 50%;
+        height: 50%;*/
     }    
 
     .tablet .cards {
