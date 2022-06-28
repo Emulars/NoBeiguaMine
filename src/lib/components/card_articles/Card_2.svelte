@@ -7,9 +7,9 @@
         window.location.href = "./Art/Article_1";
     };
 
-    const title = "PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE CHE SI AFFACCIA SULLA COSTA LIGURE";
+    const title = "MINIERA DI TITANIO NEL BEIGUA: L’ALTRA FACCIA DELLA SPLENDIDA RISERVA NATURALE LIGURE";
     const subTitle = "03 Maggio 2022";
-    const content = "Il grande patrimonio del Beigua rischia di causare gravi problemi: ecco cosa sappiamo sul giacimento di titanio presente nella riserva naturale ligure.";
+    const content = "La popolazione ligure si oppone all’apertura della miniera di titanio presente nel Beigua, 25.000 persone firmano la petizione: “È una scelta sbagliata, rischi ambientali evidenti”.";
 </script>
   
   <main>
