@@ -152,17 +152,20 @@ d<script>
 		right: 0;
 		bottom: 0;
 		display: flex;
+		flex-direction: row;
+	}
+	.tablet{
+		flex-direction: column;
 	}
 
 	.tablet .column-2{
 		float: none;
-		margin: 100% 0 0 0;
 		width: 100%;
 	}
 
 	.tablet .column-1{
 		float: none;
-		margin: 0 0 100% 0;
+		flex-direction: column;
 		width: 100%;
 	}
 
