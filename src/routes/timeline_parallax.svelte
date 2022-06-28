@@ -1,11 +1,10 @@
 <script>
-    import { Parallax, ParallaxLayer, } from 'svelte-parallax'
     import News from "$lib/collection/news.svelte";
     import titanium from "../images/timeline/amianto01.png";
+    import sign from "../images/timeline/cartB.png";
     
-    let parallax;
-    let disabled = false;
     let scroll = 0;
+    let maxScroll = 1000;
     let speed = 1;
     const colors = {
 		first: '#557B83',
@@ -27,12 +26,17 @@
                 <div class="mdc-typography--body1">Scoperta del giacimento di quasi 400 milioni di tonnellate di rutilo, forma mineralogica con la quale si presenta il titanio, a Piampaludo.</div>
             </div>
         </div>
-
+        
         <div class="column">
             <div class="node-middle">
-                <img class="image-container" src={titanium} alt="titanium" style:transform={`translate3d(0, ${scroll * speed}px, 0)`}/>
+                {#if scroll < 1300}
+                    <img class="image-container" src={titanium} alt="titanium" style:transform={`translate3d(0, ${scroll * speed}px, 0)`}/>
+                {:else if scroll > 1701 && scroll < 4000}
+                    <img class="image-container" src={sign} alt="sign" style:transform={`translate3d(0, ${scroll * speed}px, 0)`} style="width: 400px; height: 400px;"/>
+                {/if}
             </div>
         </div>
+        
 
         <div class="column">
             <div class="node-right">
@@ -59,6 +63,7 @@
             <div class="node-right">
                 <div class="mdc-typography--headline3 date">1996</div>
                 <div class="mdc-typography--body1">Il progetto viene fermato nuovamente durante un'animata Conferenza dei Servizi tenutasi a Savona: il comitato di cittadini, i sindaci di Urbe e Sassello, l'Ente parco e la Regione (che ha delega su cave e miniere) rigettano e bloccano l'iter.</div>
+                <h1 style="absolute">{scroll}</h1>
             </div>
         </div>
     </div>
@@ -122,6 +127,7 @@
             <div class="node-right">
                 <div class="mdc-typography--headline3 date">2022</div>
                 <div class="mdc-typography--body1">Il 13 aprile si è tenuta un'udienza presso il Tar Liguria sulla legittimità del decreto del febbraio 2021 relativo alle attività estrattive permesse dalla Regione Liguria per la ricerca mineraria in aree esterne del comprensorio del Parco Beigua, nei comuni di Urbe e Sassello.</div>
+                <h1 style="absolute">{scroll}</h1>
             </div>
         </div>
     </div>
