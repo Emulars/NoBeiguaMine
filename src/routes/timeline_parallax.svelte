@@ -178,6 +178,7 @@
 
     .second{
         background: url('../images/timeline/background.jpg') no-repeat;
+        background-size: cover;
     }
 
     .third{

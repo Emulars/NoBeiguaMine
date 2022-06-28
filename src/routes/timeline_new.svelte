@@ -38,7 +38,7 @@
 
 			<ParallaxLayer
 				offset="0"
-				rate="0.1"
+				rate="-0.8"
 				style="display: inline-flex;  align-items: center; justify-content: center; flex= 1 1 auto;"
 			>
 				<div class="timel1970">
@@ -105,7 +105,7 @@
 						</div>
 					</div>
 				</ParallaxLayer>
-				
+
 				<ParallaxLayer
 					offset="2"
 					rate="0"
@@ -154,7 +154,6 @@
 	}
 	.fimgcron {
 		width: 400px;
-		
 	}
 	.timel1976 {
 		color: white;
