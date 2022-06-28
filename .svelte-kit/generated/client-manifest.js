@@ -8,7 +8,8 @@ export const components = [
 	() => import("..\\..\\src\\routes\\index.svelte"),
 	() => import("..\\..\\src\\routes\\timeline.svelte"),
 	() => import("..\\..\\src\\routes\\timeline_new.svelte"),
-	() => import("..\\..\\src\\routes\\timeline_parallax.svelte")
+	() => import("..\\..\\src\\routes\\timeline_parallax.svelte"),
+	() => import("..\\..\\src\\routes\\whoami.svelte")
 ];
 
 export const dictionary = {
@@ -17,5 +18,6 @@ export const dictionary = {
 	"timeline": [[0, 5], [1]],
 	"timeline_new": [[0, 6], [1]],
 	"timeline_parallax": [[0, 7], [1]],
+	"whoami": [[0, 8], [1]],
 	"Art/Article_1": [[0, 2], [1]]
 };

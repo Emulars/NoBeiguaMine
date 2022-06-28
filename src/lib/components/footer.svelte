@@ -50,8 +50,8 @@
 						<p><b>MENU</b></p>
 			
 						<a class="links" href="/articles">Articoli</a><br /><br />
-						<a class="links" href="/timeline">Cronostoria</a><br /><br />
-						<a class="links" href="/chisiamo">Chi siamo</a>
+						<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
+						<a class="links" href="/whoami">Chi siamo</a>
 					</div>
 					<!--
 					<div class="smallCard">
@@ -103,8 +103,8 @@
 						<p><b>MENU</b></p>
 			
 						<a class="links" href="/articles">Articoli</a><br /><br />
-						<a class="links" href="/timeline">Cronostoria</a><br /><br />
-						<a class="links" href="/chisiamo">Chi siamo</a>
+						<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
+						<a class="links" href="/whoami">Chi siamo</a>
 					</div>
 					<!--
 					<div class="smallCard">
@@ -156,8 +156,8 @@
 						<p><b>MENU</b></p>
 			
 						<a class="links" href="/articles">Articoli</a><br /><br />
-						<a class="links" href="/timeline">Cronostoria</a><br /><br />
-						<a class="links" href="/chisiamo">Chi siamo</a>
+						<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
+						<a class="links" href="/whoami">Chi siamo</a>
 					</div>
 					<!--
 					<div class="smallCard">
