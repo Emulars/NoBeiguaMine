@@ -165,7 +165,6 @@ d<script>
 
 	.tablet .column-1{
 		float: none;
-		flex-direction: column;
 		width: 100%;
 	}
 

@@ -158,7 +158,7 @@
     }
 
     * :global(.card-media-16x9) {
-      background-image: url(../../../images/card/beiglarge.jpg);
+        background-image: url(../../../images/card/card_8.jfif);
       background-size:cover;
       filter: brightness(80%);
     }
