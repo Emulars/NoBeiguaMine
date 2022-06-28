@@ -1,103 +1,120 @@
 <script>
     import Card from "../components/card_articles/card.svelte";
     import MediaQuery from "$lib/Utility/MediaQuery.svelte";
+    import Card_3 from "../components/card_articles/Card_3.svelte";
+    import Card_2 from "../components/card_articles/Card_2.svelte";
+    import Card_1 from "../components/card_articles/Card_1.svelte";
 </script>
 
 <main>
     <!-- Desktop -->
     <MediaQuery query="(min-width: 1281px)" let:matches>
         {#if matches}
-        <div class="root desktop">
-            <div class="laycard">
-                <!-- Cards -->
-                <div
-                    class="mdc-typography--headline3 News"
-                    style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
-                >
-            
-                <div class="mdc-typography--headline3 title">- Ultime Notizie -</div>
-                
-                </div>
-                <div class="cards">
-                    <!--CARDS-->
-                    <Card />
-                    <Card />
-                    <Card />
-                </div>
-                <div class="more_articles">
-                    <div class="buttom">
-                        <a class="text_b" href="/articles">MOSTRA ALTRI</a>
+            <div class="root desktop">
+                <div class="laycard">
+                    <!-- Cards -->
+                    <div
+                        class="mdc-typography--headline3 News"
+                        style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                    >
+                        <div class="mdc-typography--headline3 title">
+                            - Ultime Notizie -
+                        </div>
+                    </div>
+                    <div class="cards" style="align-items: center;">
+                        <!--CARDS-->
+                        <div style="width: 576px;">
+                            <Card_1 />
+                        </div>
+                        <div style="width: 576px;">
+                            <Card_2 />
+                        </div>
+                        <div style="width: 576px;">
+                            <Card_3 />
+                        </div>
+                    </div>
+                    <div class="more_articles">
+                        <div class="buttom">
+                            <a class="text_b" href="/articles">MOSTRA ALTRI</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         {/if}
     </MediaQuery>
 
     <!-- Tablet -->
     <MediaQuery query="(min-width: 601px) and (max-width: 1280px)" let:matches>
         {#if matches}
-        <div class="root tablet">
-            <div class="laycard">
-                <!-- Cards -->
-                <div
-                    class="mdc-typography--headline3 News"
-                    style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
-                >
-            
-                <div class="mdc-typography--headline3 title">- Ultime Notizie -</div>
-                
-                </div>
-                <div class="cards">
-                    <!--CARDS-->
-                    <Card />
-                    <Card />
-                    <Card />
-                </div>
-                <div class="more_articles">
-                    <div class="buttom">
-                        <a class="text_b" href="/articles">MOSTRA ALTRI</a>
+            <div class="root tablet">
+                <div class="laycard">
+                    <!-- Cards -->
+                    <div
+                        class="mdc-typography--headline3 News"
+                        style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                    >
+                        <div class="mdc-typography--headline3 title">
+                            - Ultime Notizie -
+                        </div>
+                    </div>
+                    <div class="cards" style="align-items: center;">
+                        <!--CARDS-->
+                        <div style="width: 576px;">
+                            <Card_1 />
+                        </div>
+                        <div style="width: 576px;">
+                            <Card_2 />
+                        </div>
+                        <div style="width: 576px;">
+                            <Card_3 />
+                        </div>
+                    </div>
+                    <div class="more_articles">
+                        <div class="buttom">
+                            <a class="text_b" href="/articles">MOSTRA ALTRI</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         {/if}
     </MediaQuery>
 
     <!-- Mobile -->
     <MediaQuery query="(max-width: 600px)" let:matches>
         {#if matches}
-        <div class="root mobile">
-            <div class="laycard">
-                <!-- Cards -->
-                <div
-                    class="mdc-typography--headline3 News"
-                    style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
-                >
-            
-                <div class="mdc-typography--headline3 title">- Ultime Notizie -</div>
-                
-                </div>
-                <div class="cards">
-                    <!--CARDS-->
-                    <Card />
-                    <Card />
-                    <Card />
-                </div>
-                <div class="more_articles">
-                    <div class="buttom">
-                        <a class="text_b" href="/articles">MOSTRA ALTRI</a>
+            <div class="root mobile">
+                <div class="laycard">
+                    <!-- Cards -->
+                    <div
+                        class="mdc-typography--headline3 News"
+                        style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                    >
+                        <div class="mdc-typography--headline3 title">
+                            - Ultime Notizie -
+                        </div>
+                    </div>
+                    <div class="cards" style="align-items: center;">
+                        <!--CARDS-->
+                        <div style="width: 600px;">
+                            <Card_1 />
+                        </div>
+                        <div style="width: 600px;">
+                            <Card_2 />
+                        </div>
+                        <div style="width: 600px;">
+                            <Card_3 />
+                        </div>
+                    </div>
+                    <div class="more_articles">
+                        <div class="buttom">
+                            <a class="text_b" href="/articles">MOSTRA ALTRI</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         {/if}
-    </MediaQuery> 
-
+    </MediaQuery>
 </main>
-
-
-
 
 <style>
     .laycard {
@@ -116,7 +133,7 @@
         padding-bottom: 30px;
     }
     .buttom {
-        background-color: #E5EFC1;
+        background-color: #e5efc1;
         border: none;
         color: rgb(0, 0, 0);
         padding: 10px 20px;
@@ -128,28 +145,29 @@
         cursor: pointer;
         padding-bottom: 15px;
     }
-    .text_b{
-        font-family:'Oswald',sans-serif;
+    .text_b {
+        font-family: "Oswald", sans-serif;
         text-decoration: none;
         color: black;
     }
-    .text_b,a:visited{
-        color:black;
+    .text_b,
+    a:visited {
+        color: black;
     }
 
-    .title{
+    .title {
         margin-top: 30px;
         margin-bottom: 15px;
-        font-family:'Oswald',sans-serif;
+        font-family: "Oswald", sans-serif;
     }
 
-    .desktop .cards{
+    .desktop .cards {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         /*width: 50%;
         height: 50%;*/
-    }    
+    }
 
     .tablet .cards {
         display: flex;
@@ -162,5 +180,4 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
-
 </style>

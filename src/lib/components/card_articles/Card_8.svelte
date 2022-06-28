@@ -158,7 +158,7 @@
     }
 
     * :global(.card-media-16x9) {
-        background-image: url(../../../images/card/card_8.jfif);
+        background-image: url(../../../images/card/card_8.jpg);
       background-size:cover;
       filter: brightness(80%);
     }

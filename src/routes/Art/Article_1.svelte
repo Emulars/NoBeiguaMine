@@ -164,8 +164,9 @@ d<script>
 	}
 
 	.tablet .column-1{
-		float: none;
-		width: 100%;
+
+		float: none; 	
+		/* width: 100%; */
 	}
 
 	.column-1 {

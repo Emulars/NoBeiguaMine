@@ -4,7 +4,7 @@
 
     function clickinner() {
         // Target refers to the clicked element
-        window.location.href = "./Art/Article_1";
+        location.href = "./Art/Article_1";
     };
 
     const title = "PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE CHE SI AFFACCIA SULLA COSTA LIGURE";
