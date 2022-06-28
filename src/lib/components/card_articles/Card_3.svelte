@@ -4,7 +4,7 @@
 
     function clickinner() {
         // Target refers to the clicked element
-        window.location.href = "./Art/Article_1";
+        window.location.href = "./Art/Article_3";
     };
 
     const title = "GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: 25.000 FIRME PER OPPORSI ALL’APERTURA";

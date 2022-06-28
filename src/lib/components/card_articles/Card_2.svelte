@@ -4,7 +4,7 @@
 
     function clickinner() {
         // Target refers to the clicked element
-        window.location.href = "./Art/Article_1";
+        window.location.href = "./Art/Article_2";
     };
 
     const title = "MINIERA DI TITANIO NEL BEIGUA: L’ALTRA FACCIA DELLA SPLENDIDA RISERVA NATURALE LIGURE";

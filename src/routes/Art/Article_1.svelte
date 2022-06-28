@@ -1,4 +1,4 @@
-d<script>
+<script>
 	import News from "../../lib/collection/vertical_news.svelte";
 	import Head from "$lib/components/headArticle.svelte";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
@@ -204,8 +204,5 @@ d<script>
 	.article{
 		margin: 10% 0 0 10%;
 	}
-
-	
-  
   </style>
  
