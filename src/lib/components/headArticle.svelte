@@ -200,7 +200,7 @@
     }
 
     .foldable {
-        width: 90px;
+        width: 100%;
     }
 
     .foldable .Heroimg {

@@ -23,13 +23,13 @@
                     </div>
                     <div class="cards" style="align-items: center;">
                         <!--CARDS-->
-                        <div style="width: 576px;">
+                        <div style="width: 600px;">
                             <Card_1 />
                         </div>
-                        <div style="width: 576px;">
+                        <div style="width: 600px;">
                             <Card_2 />
                         </div>
-                        <div style="width: 576px;">
+                        <div style="width: 600px;">
                             <Card_3 />
                         </div>
                     </div>
@@ -95,13 +95,13 @@
                     </div>
                     <div class="cards" style="align-items: center;">
                         <!--CARDS-->
-                        <div style="width: 600px;">
+                        <div style="width: 300px;">
                             <Card_1 />
                         </div>
-                        <div style="width: 600px;">
+                        <div style="width: 300px;">
                             <Card_2 />
                         </div>
-                        <div style="width: 600px;">
+                        <div style="width: 300px;">
                             <Card_3 />
                         </div>
                     </div>
