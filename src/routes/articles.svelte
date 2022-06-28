@@ -1,9 +1,7 @@
 <svelte:options accessors={true} />
 
 <script lang="ts">
-	import Button from "@smui/button";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
-	import Card from "../lib/components/card_articles/card.svelte";
 	/* Button */
 	import { createEventDispatcher } from "svelte";
 	let shown = false;
@@ -73,7 +71,6 @@
 				{#if !shown}
 					<div class="more_articles">
 						<div class="buttom">
-							<!--<button on:click={show}>Mostra altri Articoli</button>-->
 							<a on:click={show} class="text_b" href="/articles"
 								>Mostra altri Articoli</a
 							>

@@ -4,9 +4,6 @@
 	import Map from "../../images/map.png";
 	import Phone from "../../images/phone.png";
 	import At from "../../images/at.png";
-	export function sendmail(){
-		window.open('mailto:test@example.com');
-	}
 </script>
 
 
@@ -89,7 +86,7 @@
 								src={At}
 								alt="email"
 							/>
-							<a >info@mountance.it</a>
+							<p>info@mountance.it</p>
 						</div>
 					</div>
 					<div class="disposition">

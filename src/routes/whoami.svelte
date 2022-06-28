@@ -1,5 +1,4 @@
 <script>
-	import Head from "$lib/components/headArticle.svelte";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
 	import Hero from "../lib/components/head.svelte";
 </script>

@@ -7,7 +7,6 @@
 <div class="main">
 		<Hero />
 		<News />
-		<!-- Timel/> -->
 </div>
 
 <style>

@@ -1,12 +1,10 @@
 <script>
 	import { Parallax, ParallaxLayer } from "svelte-parallax";
-	import Logo from "../images/LBlack.png";
 	import News from "../lib/collection/news.svelte";
 	import titanium from "../images/tita.png";
 	import imgmidc from "../images/beiglarge.jpg";
 	import imglastc from "../images/cartB.png";
 	let parallax;
-	// let disabled = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 </script>
 
 <div class="main">

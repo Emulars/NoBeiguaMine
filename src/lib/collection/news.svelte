@@ -1,5 +1,4 @@
 <script>
-    import Card from "../components/card_articles/card.svelte";
     import MediaQuery from "$lib/Utility/MediaQuery.svelte";
     import Card_3 from "../components/card_articles/Card_3.svelte";
     import Card_2 from "../components/card_articles/Card_2.svelte";
@@ -95,13 +94,13 @@
                     </div>
                     <div class="cards">
                         <!--CARDS-->
-                        <div style="width: 576px;">
+                        <div style="width: 276px;">
                             <Card_1 />
                         </div>
-                        <div style="width: 576px;">
+                        <div style="width: 276px;">
                             <Card_2 />
                         </div>
-                        <div style="width: 576px;">
+                        <div style="width: 276px;">
                             <Card_3 />
                         </div>
                     </div>
@@ -171,11 +170,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
     }
 
     .mobile .cards {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        align-items: center;
     }
 </style>
