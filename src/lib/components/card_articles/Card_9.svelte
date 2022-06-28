@@ -4,12 +4,12 @@
 
     function clickinner() {
         // Target refers to the clicked element
-        window.location.href = "./Art/Article_5";
+        window.location.href = "./Art/Article_9";
     };
 
-    const title = "ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO CON POTENZIALITÀ IMPORTANTI";
-    const subTitle = "12 Aprile 2022";
-    const content = "Presentato come pericoloso e dannoso per l’ambiente e per la salute della popolazione, il titanio può rivelarsi in realtà una risorsa strategica.";
+    const title = "2022 ANNO DI RIPARTENZE: NUOVE RICHERCHE DEL TITANIO NEL PARCO REGIONALE DEL BEIGUA";
+    const subTitle = "17 Marzo 2022";
+    const content = "Riparte la ricerca di materie prime nel Savonese: con il nuovo anno sono iniziate le indagini non invasive con il georadar per trovare tracce di titanio nel Beigua.";
 </script>
   
   <main>

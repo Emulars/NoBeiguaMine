@@ -4,12 +4,12 @@
 
     function clickinner() {
         // Target refers to the clicked element
-        window.location.href = "./Art/Article_5";
+        window.location.href = "./Art/Article_10";
     };
 
-    const title = "ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO CON POTENZIALITÀ IMPORTANTI";
-    const subTitle = "12 Aprile 2022";
-    const content = "Presentato come pericoloso e dannoso per l’ambiente e per la salute della popolazione, il titanio può rivelarsi in realtà una risorsa strategica.";
+    const title = "10.	TITANIO SUL BEIGUA, IL SINDACO DI SASSELLO: “IL PARCO POTREBBE PERDERE IL RICONOSCIMENTO DELL’UNESCO”";
+    const subTitle = "12 Marzo 2022";
+    const content = "Il sindaco di Sassello, Daniele Buschiazzo, ha parlato dei rischi derivanti da una possibile apertura della miniera di titanio presente nel Parco del Beigua: tra questi anche il pericolo di essere rimossi tra i siti riconosciuti dall’Unesco.";
 </script>
   
   <main>

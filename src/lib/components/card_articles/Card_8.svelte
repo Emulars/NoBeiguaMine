@@ -4,12 +4,12 @@
 
     function clickinner() {
         // Target refers to the clicked element
-        window.location.href = "./Art/Article_5";
+        window.location.href = "./Art/Article_8";
     };
 
-    const title = "ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO CON POTENZIALITÀ IMPORTANTI";
-    const subTitle = "12 Aprile 2022";
-    const content = "Presentato come pericoloso e dannoso per l’ambiente e per la salute della popolazione, il titanio può rivelarsi in realtà una risorsa strategica.";
+    const title = "SEA SHEPARD ED ECOWARRIOR: COME LOTTARE PER I DIRITTI AMBIENTALI DIVERTENDOSI";
+    const subTitle = "20 marzo 2022";
+    const content = "Sea Shepard ed EcoWarrior: la storia di organizzazioni che hanno fatto della lotta per i diritti ambientale il loro main purpose.";
 </script>
   
   <main>

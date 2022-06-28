@@ -4,12 +4,12 @@
 
     function clickinner() {
         // Target refers to the clicked element
-        window.location.href = "./Art/Article_5";
+        window.location.href = "./Art/Article_7";
     };
 
-    const title = "ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO CON POTENZIALITÀ IMPORTANTI";
-    const subTitle = "12 Aprile 2022";
-    const content = "Presentato come pericoloso e dannoso per l’ambiente e per la salute della popolazione, il titanio può rivelarsi in realtà una risorsa strategica.";
+    const title = "MINIERA NEL PARCO DEL BEIGUA: GLI SCENARI FUTURI";
+    const subTitle = "28 Marzo 2022";
+    const content = "Nelle ultime settimane ha fatto strada l’ipotesi di una possibile apertura della miniera di titanio presente nel Parco regionale del Beigua: quali sono i rischi e gli scenari futuri di tale scelta.";
 </script>
   
   <main>

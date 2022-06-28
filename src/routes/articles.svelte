@@ -1,182 +1,240 @@
+<svelte:options accessors={true} />
+
 <script lang="ts">
 	import Button from "@smui/button";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
 	import Card from "../lib/components/card_articles/card.svelte";
 	/* Button */
-	import { createEventDispatcher } from 'svelte';
-    let shown = false;
+	import { createEventDispatcher } from "svelte";
+	let shown = false;
 	let dispatch = createEventDispatcher();
 	export function show() {
 		shown = !shown;
-		dispatch('show', shown);
+		dispatch("show", shown);
 	}
 	import Card_1 from "$lib/components/card_articles/Card_1.svelte";
 	import Card_2 from "$lib/components/card_articles/Card_2.svelte";
 	import Card_3 from "$lib/components/card_articles/Card_3.svelte";
-	
+	import Card_4 from "$lib/components/card_articles/Card_4.svelte";
+	import Card_5 from "$lib/components/card_articles/Card_5.svelte";
+	import Card_6 from "$lib/components/card_articles/Card_6.svelte";
+	import Card_7 from "$lib/components/card_articles/Card_7.svelte";
+	import Card_8 from "$lib/components/card_articles/Card_8.svelte";
+	import Card_9 from "$lib/components/card_articles/Card_9.svelte";
+	import Card_10 from "$lib/components/card_articles/Card_10.svelte";
 </script>
 
-<svelte:options accessors={true}/>
-
-
 <main>
-
 	<div class="mdc-typography--headline3 title">- Articoli -</div>
 
 	<!-- Desktop -->
 	<MediaQuery query="(min-width: 992px)" let:matches>
-        {#if matches}
-        <div class="root desktop">
-			<div class="cards">
-				<!--CARDS-->
-				<Card_1/>
-				<Card_2/>
-				<Card_3/>
-			</div>
-		
-			<div class="cards">
-				<!--CARDS-->
-				<Card />
-				<Card />
-				<Card />
-			</div>
-		
-			<div class="cards">
-				<!--CARDS-->
-				<Card />
-				<Card />
-				<Card />
-			</div>
-		
-			{#if !shown}
-			<div class="more_articles">
-				<div class="buttom">
-					<!--<button on:click={show}>Mostra altri Articoli</button>-->
-					<a on:click={show} class="text_b" href="/articles">Mostra altri Articoli</a>
-				</div>
-			</div>
-			{/if}
-		
-			{#if shown}
+		{#if matches}
+			<div class="root desktop">
 				<div class="cards">
-					<Card />
-			</div> 
-			{/if}
-        </div>
-        {/if}
-    </MediaQuery>
+					<!--CARDS-->
+					<div style="width: 576px;">
+						<Card_1 />
+					</div>
+					<div style="width: 576px;">
+						<Card_2 />
+					</div>
+					<div style="width: 576px;">
+						<Card_3 />
+					</div>
+				</div>
+
+				<div class="cards">
+					<!--CARDS-->
+					<div style="width: 576px;">
+						<Card_4 />
+					</div>
+					<div style="width: 576px;">
+						<Card_5 />
+					</div>
+					<div style="width: 576px;">
+						<Card_6 />
+					</div>
+				</div>
+
+				<div class="cards">
+					<!--CARDS-->
+					<div style="width: 576px;">
+						<Card_7 />
+					</div>
+					<div style="width: 576px;">
+						<Card_8 />
+					</div>
+					<div style="width: 576px;">
+						<Card_9 />
+					</div>
+				</div>
+
+				{#if !shown}
+					<div class="more_articles">
+						<div class="buttom">
+							<!--<button on:click={show}>Mostra altri Articoli</button>-->
+							<a on:click={show} class="text_b" href="/articles"
+								>Mostra altri Articoli</a
+							>
+						</div>
+					</div>
+				{/if}
+
+				{#if shown}
+					<div class="cards">
+						<div style="width: 576px;">
+							<Card_10 />
+						</div>
+					</div>
+				{/if}
+			</div>
+		{/if}
+	</MediaQuery>
 
 	<!-- Tablet -->
-    <MediaQuery query="(min-width: 768px) and (max-width: 991px)" let:matches>
-        {#if matches}
-        <div class="root tablet">
-			<div class="cards">
-				<!--CARDS-->
-				<Card_1/>
-				<Card_2/>
-			</div>
-		
-			<div class="cards">
-				<!--CARDS-->
-				<Card_3/>
-				<Card/>
-			</div>
+	<MediaQuery query="(min-width: 768px) and (max-width: 991px)" let:matches>
+		{#if matches}
+			<div class="root tablet">
+				<div class="cards">
+					<!--CARDS-->
+					<div style="width: 576px;">
+						<Card_1 />
+					</div>
+					<div style="width: 576px;">
+						<Card_2 />
+					</div>
+				</div>
 
-			<div class="cards">
-				<!--CARDS-->
-				<Card />
-				<Card/>
-			</div>
+				<div class="cards">
+					<!--CARDS-->
+					<div style="width: 576px;">
+						<Card_3 />
+					</div>
+					<div style="width: 576px;">
+						<Card_4 />
+					</div>
+				</div>
 
-			<div class="cards">
-				<!--CARDS-->
-				<Card />
-				<Card/>
-			</div>
+				<div class="cards">
+					<!--CARDS-->
+					<div style="width: 576px;">
+						<Card_5 />
+					</div>
+					<div style="width: 576px;">
+						<Card_6 />
+					</div>
+				</div>
 
-			<div class="cards">
-				<!--CARDS-->
-				<Card />
-				<Card/>
-			</div>
+				<div class="cards">
+					<!--CARDS-->
+					<div style="width: 576px;">
+						<Card_7 />
+					</div>
+					<div style="width: 576px;">
+						<Card_8 />
+					</div>
+				</div>
 
-			<div class="spacer"/>
-        </div>
-        {/if}
-    </MediaQuery>
+				<div class="cards">
+					<!--CARDS-->
+					<div style="width: 576px;">
+						<Card_9 />
+					</div>
+					<div style="width: 576px;">
+						<Card_10 />
+					</div>
+				</div>
 
-    <MediaQuery query="(max-width: 767px)" let:matches>
-        {#if matches}
-        <div class="root mobile">
-			<div class="cards">
-				<!--CARDS-->
-				<Card_1/>
-				<Card_2/>
-				<Card_3/>
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+				<div class="spacer" />
 			</div>
-		
-			<div class="spacer"/>
-        </div>
-        {/if}
-    </MediaQuery> 
+		{/if}
+	</MediaQuery>
+
+	<MediaQuery query="(max-width: 767px)" let:matches>
+		{#if matches}
+			<div class="root mobile">
+				<div class="cards">
+					<!--CARDS-->
+					
+						<Card_1 />
+					
+					
+						<Card_2 />
+					
+						<Card_3 />
+					
+						<Card_4 />
+					
+						<Card_5 />
+					
+						<Card_6 />
+					
+						<Card_7 />
+					
+						<Card_8 />
+					
+						<Card_9 />
+					
+						<Card_10 />
+				
+				</div>
+
+				<div class="spacer" />
+			</div>
+		{/if}
+	</MediaQuery>
 </main>
-
 
 <style>
 	.title {
 		text-align: center;
-		font-family:'Oswald',sans-serif;
-		margin-top: 125px;
+		font-family: "Oswald", sans-serif;
+		margin-top: 120px;
 		margin-bottom: 30px;
 		text-decoration: underline;
 		text-underline-offset: 0.5em;
-		color: #39AEA9;
+		color: #39aea9;
 	}
 
 	.more_articles {
-        text-align: center;
-        padding-top: 15px;
-        padding-bottom: 30px;
-    }
-    .buttom {
-        background-color: #E5EFC1;
-        border: none;
-        color: rgb(0, 0, 0);
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 2px 1px;
-        cursor: pointer;
-        padding-bottom: 15px;
-    }
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 30px;
+	}
+	.buttom {
+		background-color: #e5efc1;
+		border: none;
+		color: rgb(0, 0, 0);
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 2px 1px;
+		cursor: pointer;
+		padding-bottom: 15px;
+	}
 
-	.text_b{
-        font-family:'Oswald',sans-serif;
-        text-decoration: none;
-        color: black;
-    }
-    .text_b,a:visited{
-        color:black;
-    }
+	.text_b {
+		font-family: "Oswald", sans-serif;
+		text-decoration: none;
+		color: black;
+	}
+	.text_b,
+	a:visited {
+		color: black;
+	}
 
 	/* Desktop */
-	.desktop .cards{
+	.desktop .cards {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
-		align-items: center;
+		/* align-items: center; */
 	}
 
-	.tablet .cards{
+	.tablet .cards {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
@@ -184,12 +242,12 @@
 		margin-right: 10px;
 	}
 
-	.spacer{
+	.spacer {
 		margin-top: 15px;
 		margin-bottom: 30px;
 	}
 
-	.mobile .cards{
+	.mobile .cards {
 		display: flex;
 		flex-direction: column;
 		margin: 10px;

@@ -14,9 +14,9 @@
   
   <main>
     <!-- Desktop -->
-    <MediaQuery query="(min-width: 1200px)" let:matches>
+    <MediaQuery query="(min-width: 1200px)"  let:matches>
       {#if matches}
-      <div class="root desktop">
+      <div class="root desktop" >
         <div class="card-container">
             <Card>
                 <PrimaryAction on:click={() => clickinner()}>
