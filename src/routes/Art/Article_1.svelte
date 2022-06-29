@@ -275,7 +275,7 @@
 	.text{
 		font-family:'Roboto',sans-serif;
 		line-height: 1.5em;
-		/* font-size: 25px; */
+		font-size: 25px;
 	}
 
     * :global(.card-media-16x9) {

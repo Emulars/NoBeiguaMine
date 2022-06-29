@@ -12,7 +12,7 @@ import MediaQuery from "$lib/Utility/MediaQuery.svelte";
 	<!-- Desktop -->
 	<MediaQuery query="(min-width: 1281px)" let:matches>
 		{#if matches}
-			<!-- <div class="root">
+			<div class="root">
 				<div class="mdc-typography--headline3 title">
 					Il team è composto da otto studenti dell’Università di Genova che hanno<br>
 					lo scopo di sensibilizzare la popolazione ligure sul delicato tema<br>
@@ -21,7 +21,7 @@ import MediaQuery from "$lib/Utility/MediaQuery.svelte";
 					ideare una campagna di sensibilizzazione basata sulla divulgazione online<br>
 					di informazioni utili alla causa.<br>
 					</div>
-			</div> -->
+			</div>
 		{/if}
 	</MediaQuery>
 
