@@ -148,6 +148,7 @@
 		{/if}
 	</MediaQuery>
 
+	<!-- Mobile -->
 	<MediaQuery query="(max-width: 767px)" let:matches>
 		{#if matches}
 			<div class="root mobile">

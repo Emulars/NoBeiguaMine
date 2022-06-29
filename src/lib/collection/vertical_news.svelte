@@ -10,13 +10,21 @@
     } from "@smui/card";
     import MediaQuery from "$lib/Utility/MediaQuery.svelte";
   
-    const title =
-        "PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE CHE SI AFFACCIA SULLA COSTA LIGURE";
+    const title = "PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE CHE SI AFFACCIA SULLA COSTA LIGURE";
     const subTitle = "09 Maggio 2022";
-    function clickinner() {
-        // Target refers to the clicked element
+
+    function clickinner1() {
         location.href = "../../Art/Article_1";
     }
+
+    function clickinner2() {
+        location.href = "../../Art/Article_2";
+    }
+
+    function clickinner3() {
+        location.href = "../../Art/Article_3";
+    }
+
 </script>
 
 <main>
@@ -40,19 +48,19 @@
                 <div class="cards" style="align-items: center;">
                     <div class="card-container">
                         <Card style="min-width: 300px;">
-                            <PrimaryAction on:click={() => clickinner()}>
+                            <PrimaryAction on:click={() => clickinner1()}>
                                 <Media
                                     class="card-media-squaren1"
                                     aspectRatio="square"
                                 />
                                 <Content class="mdc-typography--body2">
                                     <h3 style="margin: 0;">
-                                        {title}
+                                        PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE CHE SI AFFACCIA SULLA COSTA LIGURE
                                     </h3>
                                     <span
                                         class="date"
                                         style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                        >{subTitle}</span
+                                        >09 Maggio 2022</span
                                     >
                                 </Content>
                             </PrimaryAction>
@@ -60,19 +68,19 @@
                     </div>
                     <div class="card-container">
                         <Card style="min-width: 300px;">
-                            <PrimaryAction on:click={() => clickinner()}>
+                            <PrimaryAction on:click={() => clickinner2()}>
                                 <Media
                                     class="card-media-squaren2"
                                     aspectRatio="square"
                                 />
                                 <Content class="mdc-typography--body2">
                                     <h3 style="margin: 0;">
-                                        {title}
+                                        MINIERA DI TITANIO NEL BEIGUA: L’ALTRA FACCIA DELLA SPLENDIDA RISERVA NATURALE LIGURE
                                     </h3>
                                     <span
                                         class="date"
                                         style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                        >{subTitle}</span
+                                        >03 Maggio 2022</span
                                     >
                                 </Content>
                             </PrimaryAction>
@@ -80,23 +88,28 @@
                     </div>
                     <div class="card-container">
                         <Card style="min-width: 300px;">
-                            <PrimaryAction on:click={() => clickinner()}>
+                            <PrimaryAction on:click={() => clickinner3()}>
                                 <Media
                                     class="card-media-squaren3"
                                     aspectRatio="square"
                                 />
                                 <Content class="mdc-typography--body2">
                                     <h3 style="margin: 0;">
-                                        {title}
+                                        GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: 25.000 FIRME PER OPPORSI ALL’APERTURA
                                     </h3>
                                     <span
                                         class="date"
                                         style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                        >{subTitle}</span
+                                        >27 Aprile 2022</span
                                     >
                                 </Content>
                             </PrimaryAction>
                         </Card>
+                    </div>
+                    <div class="more_articles">
+                        <div class="buttom">
+                            <a class="text_b" href="/articles">MOSTRA ALTRI</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,19 +138,19 @@
                     <div class="cards" style="align-items: center;">
                         <div class="card-container">
                             <Card style="min-width: 300px;">
-                                <PrimaryAction on:click={() => clickinner()}>
+                                <PrimaryAction on:click={() => clickinner1()}>
                                     <Media
                                         class="card-media-squaren1"
                                         aspectRatio="square"
                                     />
                                     <Content class="mdc-typography--body2">
                                         <h3 style="margin: 0;">
-                                            {title}
+                                            PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE CHE SI AFFACCIA SULLA COSTA LIGURE
                                         </h3>
                                         <span
                                             class="date"
                                             style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                            >{subTitle}</span
+                                            >09 Maggio 2022</span
                                         >
                                     </Content>
                                 </PrimaryAction>
@@ -145,19 +158,19 @@
                         </div>
                         <div class="card-container">
                             <Card style="min-width: 300px;">
-                                <PrimaryAction on:click={() => clickinner()}>
+                                <PrimaryAction on:click={() => clickinner2()}>
                                     <Media
                                         class="card-media-squaren2"
                                         aspectRatio="square"
                                     />
                                     <Content class="mdc-typography--body2">
                                         <h3 style="margin: 0;">
-                                            {title}
+                                            MINIERA DI TITANIO NEL BEIGUA: L’ALTRA FACCIA DELLA SPLENDIDA RISERVA NATURALE LIGURE
                                         </h3>
                                         <span
                                             class="date"
                                             style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                            >{subTitle}</span
+                                            >03 Maggio 2022</span
                                         >
                                     </Content>
                                 </PrimaryAction>
@@ -165,19 +178,19 @@
                         </div>
                         <div class="card-container">
                             <Card style="min-width: 300px;">
-                                <PrimaryAction on:click={() => clickinner()}>
+                                <PrimaryAction on:click={() => clickinner3()}>
                                     <Media
                                         class="card-media-squaren3"
                                         aspectRatio="square"
                                     />
                                     <Content class="mdc-typography--body2">
                                         <h3 style="margin: 0;">
-                                            {title}
+                                            GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: 25.000 FIRME PER OPPORSI ALL’APERTURA
                                         </h3>
                                         <span
                                             class="date"
                                             style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                            >{subTitle}</span
+                                            >27 Aprile 2022</span
                                         >
                                     </Content>
                                 </PrimaryAction>
@@ -216,19 +229,19 @@
                     <div class="cards" style="align-items: center;">
                         <div class="card-container">
                             <Card style="min-width: 300px;">
-                                <PrimaryAction on:click={() => clickinner()}>
+                                <PrimaryAction on:click={() => clickinner1()}>
                                     <Media
                                         class="card-media-squaren1"
                                         aspectRatio="square"
                                     />
                                     <Content class="mdc-typography--body2">
                                         <h3 style="margin: 0;">
-                                            {title}
+                                            PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE CHE SI AFFACCIA SULLA COSTA LIGURE
                                         </h3>
                                         <span
                                             class="date"
                                             style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                            >{subTitle}</span
+                                            >09 Maggio 2022</span
                                         >
                                     </Content>
                                 </PrimaryAction>
@@ -236,19 +249,19 @@
                         </div>
                         <div class="card-container">
                             <Card style="min-width: 300px;">
-                                <PrimaryAction on:click={() => clickinner()}>
+                                <PrimaryAction on:click={() => clickinner2()}>
                                     <Media
                                         class="card-media-squaren2"
                                         aspectRatio="square"
                                     />
                                     <Content class="mdc-typography--body2">
                                         <h3 style="margin: 0;">
-                                            {title}
+                                            MINIERA DI TITANIO NEL BEIGUA: L’ALTRA FACCIA DELLA SPLENDIDA RISERVA NATURALE LIGURE
                                         </h3>
                                         <span
                                             class="date"
                                             style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                            >{subTitle}</span
+                                            >03 Maggio 2022</span
                                         >
                                     </Content>
                                 </PrimaryAction>
@@ -256,19 +269,19 @@
                         </div>
                         <div class="card-container">
                             <Card style="min-width: 300px;">
-                                <PrimaryAction on:click={() => clickinner()}>
+                                <PrimaryAction on:click={() => clickinner3()}>
                                     <Media
                                         class="card-media-squaren3"
                                         aspectRatio="square"
                                     />
                                     <Content class="mdc-typography--body2">
                                         <h3 style="margin: 0;">
-                                            {title}
+                                            GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: 25.000 FIRME PER OPPORSI ALL’APERTURA
                                         </h3>
                                         <span
                                             class="date"
                                             style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
-                                            >{subTitle}</span
+                                            >27 Aprile 2022</span
                                         >
                                     </Content>
                                 </PrimaryAction>
@@ -352,6 +365,12 @@
     }
     * :global(.card-media-squaren1) {
         background-image: url(../../images/card/card_1.jpg);
+    }
+    * :global(.card-media-squaren2) {
+        background-image: url(../../images/card/card_2.jpg);
+    }
+    * :global(.card-media-squaren3) {
+        background-image: url(../../images/card/card_3.jpg);
     }
     .card-container {
         margin: 10px;
