@@ -153,30 +153,17 @@
 			<div class="root mobile">
 				<div class="cards">
 					<!--CARDS-->
-					
 						<Card_1 />
-					
-					
 						<Card_2 />
-					
 						<Card_3 />
-					
 						<Card_4 />
-					
 						<Card_5 />
-					
 						<Card_6 />
-					
 						<Card_7 />
-					
 						<Card_8 />
-					
 						<Card_9 />
-					
 						<Card_10 />
-				
 				</div>
-
 				<div class="spacer" />
 			</div>
 		{/if}

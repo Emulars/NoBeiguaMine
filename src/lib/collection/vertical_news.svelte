@@ -1,8 +1,22 @@
 <script>
+    import Card, {
+        Content,
+        PrimaryAction,
+        Media,
+        MediaContent,
+        Actions,
+        ActionButtons,
+        ActionIcons,
+    } from "@smui/card";
     import MediaQuery from "$lib/Utility/MediaQuery.svelte";
-    import Card_3 from "../components/card_articles/Card_3.svelte";
-    import Card_2 from "../components/card_articles/Card_2.svelte";
-    import Card_1 from "../components/card_articles/Card_1.svelte";
+  
+    const title =
+        "PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE CHE SI AFFACCIA SULLA COSTA LIGURE";
+    const subTitle = "09 Maggio 2022";
+    function clickinner() {
+        // Target refers to the clicked element
+        location.href = "../../Art/Article_1";
+    }
 </script>
 
 <main>
@@ -10,32 +24,79 @@
     <MediaQuery query="(min-width: 1281px)" let:matches>
         {#if matches}
             <div class="root desktop">
-                <div class="laycard">
-                    <!-- Cards -->
+                <div
+                    class="mdc-typography--headline3 News"
+                    style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                >
                     <div
-                        class="mdc-typography--headline3 News"
-                        style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                        class="mdc-typography--headline3 title"
+                        style="	text-decoration: underline;
+                                text-underline-offset: 0.5em;
+                                color: #39aea9;"
                     >
-                        <div class="mdc-typography--headline3 title">
-                            - Ultime Notizie -
-                        </div>
+                        - Ultime Notizie -
                     </div>
-                    <div class="cards" style="align-items: center;">
-                        <!--CARDS-->
-                        <div style="width: 600px;">
-                            <Card_1 />
-                        </div>
-                        <div style="width: 600px;">
-                            <Card_2 />
-                        </div>
-                        <div style="width: 600px;">
-                            <Card_3 />
-                        </div>
+                </div>
+                <div class="cards" style="align-items: center;">
+                    <div class="card-container">
+                        <Card style="min-width: 300px;">
+                            <PrimaryAction on:click={() => clickinner()}>
+                                <Media
+                                    class="card-media-squaren1"
+                                    aspectRatio="square"
+                                />
+                                <Content class="mdc-typography--body2">
+                                    <h3 style="margin: 0;">
+                                        {title}
+                                    </h3>
+                                    <span
+                                        class="date"
+                                        style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                        >{subTitle}</span
+                                    >
+                                </Content>
+                            </PrimaryAction>
+                        </Card>
                     </div>
-                    <div class="more_articles">
-                        <div class="buttom">
-                            <a class="text_b" href="/articles">MOSTRA ALTRI</a>
-                        </div>
+                    <div class="card-container">
+                        <Card style="min-width: 300px;">
+                            <PrimaryAction on:click={() => clickinner()}>
+                                <Media
+                                    class="card-media-squaren2"
+                                    aspectRatio="square"
+                                />
+                                <Content class="mdc-typography--body2">
+                                    <h3 style="margin: 0;">
+                                        {title}
+                                    </h3>
+                                    <span
+                                        class="date"
+                                        style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                        >{subTitle}</span
+                                    >
+                                </Content>
+                            </PrimaryAction>
+                        </Card>
+                    </div>
+                    <div class="card-container">
+                        <Card style="min-width: 300px;">
+                            <PrimaryAction on:click={() => clickinner()}>
+                                <Media
+                                    class="card-media-squaren3"
+                                    aspectRatio="square"
+                                />
+                                <Content class="mdc-typography--body2">
+                                    <h3 style="margin: 0;">
+                                        {title}
+                                    </h3>
+                                    <span
+                                        class="date"
+                                        style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                        >{subTitle}</span
+                                    >
+                                </Content>
+                            </PrimaryAction>
+                        </Card>
                     </div>
                 </div>
             </div>
@@ -52,20 +113,75 @@
                         class="mdc-typography--headline3 News"
                         style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
                     >
-                        <div class="mdc-typography--headline3 title">
+                        <div
+                            class="mdc-typography--headline3 title"
+                            style="	text-decoration: underline;
+                        text-underline-offset: 0.5em;
+                        color: #39aea9;"
+                        >
                             - Ultime Notizie -
                         </div>
                     </div>
                     <div class="cards" style="align-items: center;">
-                        <!--CARDS-->
-                        <div style="width: 576px;">
-                            <Card_1 />
+                        <div class="card-container">
+                            <Card style="min-width: 300px;">
+                                <PrimaryAction on:click={() => clickinner()}>
+                                    <Media
+                                        class="card-media-squaren1"
+                                        aspectRatio="square"
+                                    />
+                                    <Content class="mdc-typography--body2">
+                                        <h3 style="margin: 0;">
+                                            {title}
+                                        </h3>
+                                        <span
+                                            class="date"
+                                            style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                            >{subTitle}</span
+                                        >
+                                    </Content>
+                                </PrimaryAction>
+                            </Card>
                         </div>
-                        <div style="width: 576px;">
-                            <Card_2 />
+                        <div class="card-container">
+                            <Card style="min-width: 300px;">
+                                <PrimaryAction on:click={() => clickinner()}>
+                                    <Media
+                                        class="card-media-squaren2"
+                                        aspectRatio="square"
+                                    />
+                                    <Content class="mdc-typography--body2">
+                                        <h3 style="margin: 0;">
+                                            {title}
+                                        </h3>
+                                        <span
+                                            class="date"
+                                            style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                            >{subTitle}</span
+                                        >
+                                    </Content>
+                                </PrimaryAction>
+                            </Card>
                         </div>
-                        <div style="width: 576px;">
-                            <Card_3 />
+                        <div class="card-container">
+                            <Card style="min-width: 300px;">
+                                <PrimaryAction on:click={() => clickinner()}>
+                                    <Media
+                                        class="card-media-squaren3"
+                                        aspectRatio="square"
+                                    />
+                                    <Content class="mdc-typography--body2">
+                                        <h3 style="margin: 0;">
+                                            {title}
+                                        </h3>
+                                        <span
+                                            class="date"
+                                            style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                            >{subTitle}</span
+                                        >
+                                    </Content>
+                                </PrimaryAction>
+                            </Card>
                         </div>
                     </div>
                     <div class="more_articles">
@@ -88,20 +204,75 @@
                         class="mdc-typography--headline3 News"
                         style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
                     >
-                        <div class="mdc-typography--headline3 title">
+                        <div
+                            class="mdc-typography--headline3 title"
+                            style="font-size:35px;	text-decoration: underline;
+                        text-underline-offset: 0.5em;
+                        color: #39aea9;"
+                        >
                             - Ultime Notizie -
                         </div>
                     </div>
                     <div class="cards" style="align-items: center;">
-                        <!--CARDS-->
-                        <div style="width: 300px;">
-                            <Card_1 />
+                        <div class="card-container">
+                            <Card style="min-width: 300px;">
+                                <PrimaryAction on:click={() => clickinner()}>
+                                    <Media
+                                        class="card-media-squaren1"
+                                        aspectRatio="square"
+                                    />
+                                    <Content class="mdc-typography--body2">
+                                        <h3 style="margin: 0;">
+                                            {title}
+                                        </h3>
+                                        <span
+                                            class="date"
+                                            style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                            >{subTitle}</span
+                                        >
+                                    </Content>
+                                </PrimaryAction>
+                            </Card>
                         </div>
-                        <div style="width: 300px;">
-                            <Card_2 />
+                        <div class="card-container">
+                            <Card style="min-width: 300px;">
+                                <PrimaryAction on:click={() => clickinner()}>
+                                    <Media
+                                        class="card-media-squaren2"
+                                        aspectRatio="square"
+                                    />
+                                    <Content class="mdc-typography--body2">
+                                        <h3 style="margin: 0;">
+                                            {title}
+                                        </h3>
+                                        <span
+                                            class="date"
+                                            style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                            >{subTitle}</span
+                                        >
+                                    </Content>
+                                </PrimaryAction>
+                            </Card>
                         </div>
-                        <div style="width: 300px;">
-                            <Card_3 />
+                        <div class="card-container">
+                            <Card style="min-width: 300px;">
+                                <PrimaryAction on:click={() => clickinner()}>
+                                    <Media
+                                        class="card-media-squaren3"
+                                        aspectRatio="square"
+                                    />
+                                    <Content class="mdc-typography--body2">
+                                        <h3 style="margin: 0;">
+                                            {title}
+                                        </h3>
+                                        <span
+                                            class="date"
+                                            style="background-color: #A2D5AB; margin:0; width:120px;color:white ;"
+                                            >{subTitle}</span
+                                        >
+                                    </Content>
+                                </PrimaryAction>
+                            </Card>
                         </div>
                     </div>
                     <div class="more_articles">
@@ -123,7 +294,7 @@
     .cards {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         border: 0ch;
     }
     .more_articles {
@@ -178,5 +349,12 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+    * :global(.card-media-squaren1) {
+        background-image: url(../../images/card/card_1.jpg);
+    }
+    .card-container {
+        margin: 10px;
+        width: 300px;
     }
 </style>
