@@ -68,7 +68,7 @@
                         <Button aria-label="" href="/articles">
                             <span>Articoli</span>
                         </Button>
-                        <Button aria-label="" href="/timeline">
+                        <Button aria-label="" href="/timeline_parallax">
                             <span>Cronistoria</span>
                         </Button>
                     </Section>
@@ -97,9 +97,12 @@
                     </Section>
             
                     <!-- MENU -->
+                    <Section align="end" toolbar>
                     <Button id="icon" on:click={show}>
                         <i class="fa fa-bars"></i>
                     </Button>
+               
+                    </Section>
                 </Row>
                 {#if shown}
                     <Row>
@@ -107,7 +110,7 @@
                             <Button aria-label="" href="/articles">
                                 <span>Articoli</span>
                             </Button>
-                            <Button aria-label="" href="/timeline">
+                            <Button aria-label="" href="/timeline_parallax">
                                 <span>Cronistoria</span>
                             </Button>
                         </Section>
