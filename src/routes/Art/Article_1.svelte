@@ -82,7 +82,7 @@
 
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline2 title">
+					<div class="mdc-typography--headline3 title">
 						PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE <br/>
 						CHE SI AFFACCIA SULLA COSTA LIGURE
 					</div>
@@ -275,7 +275,7 @@
 	.text{
 		font-family:'Roboto',sans-serif;
 		line-height: 1.5em;
-		font-size: 25px;
+		/* font-size: 25px; */
 	}
 
     * :global(.card-media-16x9) {

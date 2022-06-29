@@ -158,6 +158,7 @@
         margin-top: 30px;
         margin-bottom: 15px;
         font-family: "Oswald", sans-serif;
+        color:#39aea9;
     }
 
     .desktop .cards {

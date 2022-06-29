@@ -80,9 +80,11 @@
 
 				{#if shown}
 					<div class="cards">
+						<div style="width: 576px;"></div>
 						<div style="width: 576px;">
 							<Card_10 />
-						</div>
+						</div >
+						<div style="width: 576px;"></div>
 					</div>
 				{/if}
 			</div>
@@ -148,7 +150,6 @@
 		{/if}
 	</MediaQuery>
 
-	<!-- Mobile -->
 	<MediaQuery query="(max-width: 767px)" let:matches>
 		{#if matches}
 			<div class="root mobile">
