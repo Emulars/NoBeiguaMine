@@ -16,7 +16,7 @@
 		<div class="root">
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline3 title">
+					<div class="mdc-typography--headline4 title">
 						TITANIO SUL BEIGUA, IL SINDACO DI SASSELLO: <br/>
 						<i>“IL PARCO POTREBBE PERDERE IL RICONOSCIMENTO DELL’UNESCO”</i>
 					</div>
@@ -75,7 +75,7 @@
 
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline2 title">
+					<div class="mdc-typography--headline4 title">
 						TITANIO SUL BEIGUA, IL SINDACO DI SASSELLO: <br/>
 						<i>“IL PARCO POTREBBE PERDERE IL RICONOSCIMENTO DELL’UNESCO”</i>
 					</div>

@@ -16,7 +16,7 @@
 		<div class="root">
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline3 title">
+					<div class="mdc-typography--headline4 title">
 						GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: <br/> 
                         25.000 FIRME PER OPPORSI ALL’APERTURA
 					</div>
@@ -80,7 +80,7 @@
 
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline2 title">
+					<div class="mdc-typography--headline4 title">
 						GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: <br/> 
                         25.000 FIRME PER OPPORSI ALL’APERTURA
 					</div>

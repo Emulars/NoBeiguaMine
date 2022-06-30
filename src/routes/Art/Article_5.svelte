@@ -16,7 +16,7 @@
 		<div class="root">
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline3 title">
+					<div class="mdc-typography--headline4 title">
 						ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO <br/>
 						CON POTENZIALITÀ IMPORTANTI
 					</div>
@@ -88,7 +88,7 @@
 
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline2 title">
+					<div class="mdc-typography--headline4 title">
 						ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO <br/>
 						CON POTENZIALITÀ IMPORTANTI
 					</div>

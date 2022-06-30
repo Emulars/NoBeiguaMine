@@ -16,7 +16,7 @@
 		<div class="root">
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline3 title">
+					<div class="mdc-typography--headline4 title">
 						2022 ANNO DI RIPARTENZE: NUOVE RICHERCHE DEL TITANIO <br/>
 						NEL PARCO REGIONALE DEL BEIGUA
 					</div>
@@ -63,7 +63,7 @@
 
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline2 title">
+					<div class="mdc-typography--headline4 title">
 						2022 ANNO DI RIPARTENZE: NUOVE RICHERCHE DEL TITANIO <br/>
 						NEL PARCO REGIONALE DEL BEIGUA
 					</div>

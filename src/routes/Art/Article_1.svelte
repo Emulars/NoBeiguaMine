@@ -16,7 +16,7 @@
 		<div class="root">
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline3 title">
+					<div class="mdc-typography--headline4 title">
 						PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE <br/>
 						CHE SI AFFACCIA SULLA COSTA LIGURE
 					</div>
@@ -82,7 +82,7 @@
 
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline3 title">
+					<div class="mdc-typography--headline4 title">
 						PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA NATURALE <br/>
 						CHE SI AFFACCIA SULLA COSTA LIGURE
 					</div>

@@ -16,7 +16,7 @@
 		<div class="root">
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline3 title">
+					<div class="mdc-typography--headline4 title">
 						MINIERA NEL PARCO DEL BEIGUA: GLI SCENARI FUTURI
 					</div>
 						
@@ -75,7 +75,7 @@
 
 			<div class="column-1">
 				<div class="article">
-					<div class="mdc-typography--headline5 title">
+					<div class="mdc-typography--headline4 title">
 						MINIERA NEL PARCO DEL BEIGUA: GLI SCENARI FUTURI
 					</div>
 						
