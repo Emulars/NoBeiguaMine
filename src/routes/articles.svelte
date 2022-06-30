@@ -31,39 +31,39 @@
 			<div class="root desktop">
 				<div class="cards">
 					<!--CARDS-->
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_1 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_2 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_3 />
 					</div>
 				</div>
 
 				<div class="cards">
 					<!--CARDS-->
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_4 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_5 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_6 />
 					</div>
 				</div>
 
 				<div class="cards">
 					<!--CARDS-->
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_7 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_8 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_9 />
 					</div>
 				</div>
@@ -80,11 +80,11 @@
 
 				{#if shown}
 					<div class="cards">
-						<div style="width: 576px;"></div>
-						<div style="width: 576px;">
+						<div class="perfect-card"></div>
+						<div class="perfect-card">
 							<Card_10 />
 						</div >
-						<div style="width: 576px;"></div>
+						<div class="perfect-card"></div>
 					</div>
 				{/if}
 			</div>
@@ -97,50 +97,50 @@
 			<div class="root tablet">
 				<div class="cards">
 					<!--CARDS-->
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_1 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_2 />
 					</div>
 				</div>
 
 				<div class="cards">
 					<!--CARDS-->
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_3 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_4 />
 					</div>
 				</div>
 
 				<div class="cards">
 					<!--CARDS-->
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_5 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_6 />
 					</div>
 				</div>
 
 				<div class="cards">
 					<!--CARDS-->
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_7 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_8 />
 					</div>
 				</div>
 
 				<div class="cards">
 					<!--CARDS-->
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_9 />
 					</div>
-					<div style="width: 576px;">
+					<div class="perfect-card">
 						<Card_10 />
 					</div>
 				</div>
@@ -181,6 +181,9 @@
 		text-decoration: underline;
 		text-underline-offset: 0.5em;
 		color: #39aea9;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 3px;
 	}
 
 	.more_articles {
@@ -217,7 +220,8 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
-		/* align-items: center; */
+		margin-left: 100px;
+		margin-right: 100px;
 	}
 
 	.tablet .cards {
@@ -228,15 +232,20 @@
 		margin-right: 10px;
 	}
 
-	.spacer {
-		margin-top: 15px;
-		margin-bottom: 30px;
-	}
-
 	.mobile .cards {
 		display: flex;
 		flex-direction: column;
 		margin: 10px;
 		justify-content: space-evenly;
+	}
+
+	.spacer {
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+
+	.perfect-card{
+		width: 1000px;
+		margin: 0 0 0 0;
 	}
 </style>

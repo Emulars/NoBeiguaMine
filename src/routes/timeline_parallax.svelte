@@ -395,6 +395,9 @@
 		margin-top: 125px;
 		margin-bottom: 15px;
         font-family:'Oswald',sans-serif;
+        font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 3px;
 	}
 	.subTitle{ 
         text-align: center;
