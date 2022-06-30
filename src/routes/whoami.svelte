@@ -1,5 +1,4 @@
 <script>
-	import News from "$lib/collection/news.svelte";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
 	import Hero from "../lib/components/head.svelte";
 	import unige from "../images/unige.png";
@@ -19,20 +18,16 @@
 					<h1><img class="unige" src={unige} alt="unige" /></h1>
 				</div>
 				<div class="article">
-				<div class="mdc-typography--headline1 title">Chi siamo ?</div>
-				<div class="mdc-typography--body1 text">
-					Il team è composto da otto studenti dell’Università di
-					Genova che<br /> 
-					hanno lo scopo di sensibilizzare la popolazione ligure sul delicato
-					<br />
-					tema dell’utilizzo di amianto in Italia. Quattro informatici,
-					tre designer <br />
-					e una studentessa di comunicazione hanno unito le loro competenze<br />
-					per ideare una campagna di sensibilizzazione basata sulla divulgazione
-					online<br />
-					di informazioni utili alla causa.<br />
+					<div class="mdc-typography--headline1 title">Chi siamo ?</div>
+					<div class="mdc-typography--body1 text">
+						Il team è composto da otto studenti dell’Università di Genova<br/>  
+						che	hanno lo scopo di sensibilizzare la popolazione ligure sul delicato<br />
+						tema dell’utilizzo di amianto in Italia. Quattro informatici,<br/>
+						tre designer e una studentessa di comunicazione hanno unito le loro<br/> 
+						competenze per ideare una campagna di sensibilizzazione basata sulla<br/>
+						divulgazione online	di informazioni utili alla causa.<br />
+					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 		{/if}
@@ -46,21 +41,21 @@
 					<div>
 						<h1><img class="unige" src={unige} alt="unige" /></h1>
 					</div>
-					<div>
-					<div class="mdc-typography--headline1 title">Chi siamo ?</div>
-					<div class="mdc-typography--body1 text">
-						Il team è composto da otto studenti dell’Università di
-						Genova che <br />
-						hanno lo scopo di sensibilizzare la popolazione ligure sul delicato
-						<br />
-						tema dell’utilizzo di amianto in Italia. Quattro informatici,
-						tre<br />
-						designer e una studentessa di comunicazione hanno unito le loro competenze<br />
-						per ideare una campagna di sensibilizzazione basata sulla divulgazione
-						online<br />
-						di informazioni utili alla causa.<br />
+					<div class="article">
+						<div class="mdc-typography--headline1 title">Chi siamo ?</div>
+						<div class="mdc-typography--body1 text">
+							Il team è composto da otto studenti dell’Università di
+							Genova che <br />
+							hanno lo scopo di sensibilizzare la popolazione ligure sul delicato
+							<br />
+							tema dell’utilizzo di amianto in Italia. Quattro informatici,
+							tre<br />
+							designer e una studentessa di comunicazione hanno unito le loro competenze<br />
+							per ideare una campagna di sensibilizzazione basata sulla divulgazione
+							online<br />
+							di informazioni utili alla causa.<br />
+						</div>
 					</div>
-				</div>
 				</div>
 			</div>
 		{/if}
@@ -74,22 +69,22 @@
 				<div >
 					<h1><img class="unige" src={unige} alt="unige" /></h1>
 				</div>
-				<div>
-				<div class="mdc-typography--headline3 title">Chi siamo ?</div>
-				<div class="mdc-typography--body1 text">
-					Il team è composto da otto studenti dell’Università di
-					Genova che <br />
-					hanno lo scopo di sensibilizzare la popolazione ligure sul delicato
-					<br />
-					tema dell’utilizzo di amianto in Italia. Quattro informatici,
-					tre designer <br />
-					e una studentessa di comunicazione hanno unito le loro competenze
-					per <br />
-					ideare una campagna di sensibilizzazione basata sulla divulgazione
-					online<br />
-					di informazioni utili alla causa.<br />
+				<div class="article">
+					<div class="mdc-typography--headline3 title">Chi siamo ?</div>
+					<div class="mdc-typography--body1 text">
+						Il team è composto da otto studenti dell’Università di
+						Genova che <br />
+						hanno lo scopo di sensibilizzare la popolazione ligure sul delicato
+						<br />
+						tema dell’utilizzo di amianto in Italia. Quattro informatici,
+						tre designer <br />
+						e una studentessa di comunicazione hanno unito le loro competenze
+						per <br />
+						ideare una campagna di sensibilizzazione basata sulla divulgazione
+						online<br />
+						di informazioni utili alla causa.<br />
+					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 		{/if}
@@ -98,10 +93,7 @@
 
 <style>
 	.root {
-		left: 0;
-		top: 0;
-		right: 0;
-		bottom: 0;
+		margin: 10% 10% 10% 10%;
 		display: flex;
 	}
 	.who{
@@ -117,17 +109,15 @@
 		flex-direction: column;
 		width: 100%;
 	}
-	.tablet .who .title{
-		margin: 10%;
-	}
+
 	.tablet .who .unige{
 		width: 40%;
 		align-items: center;
+		padding-left: 30%;
 	}
 	.tablet .who .text{
 		margin-bottom: 100px;
 		align-items: center;
-		padding-left: 20px;
 		font-size: 23px;
 	}
 
@@ -139,14 +129,9 @@
 	.mobile .who .unige{
 		width: 40%;
 		align-items: center;
-	}
-	.mobile .who .title{
-		margin: 10%;
+		padding-left: 30%;
 	}
 	.mobile .who .text{
-		margin-bottom: 100px;
-		padding-left: 20px;
-		padding-right: 20px;
 		align-items: center;
 	}
 	.title {
@@ -166,13 +151,10 @@
 		background-image: url(../../../images/beiglarge.jpg);
 	}
 	.unige {
-		padding: 10%;
 		width: 50%;
-		padding-left: 30%;
 	}
 
 	.article {
-		margin: 10px 10px 10px 10px;
 		line-height: 1.5em;
 	}
 </style>

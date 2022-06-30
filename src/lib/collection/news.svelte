@@ -88,7 +88,7 @@
                         class="mdc-typography--headline3 News"
                         style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
                     >
-                        <div class="mdc-typography--headline3 title">
+                        <div class="mdc-typography--headline4 title">
                             - Ultime Notizie -
                         </div>
                     </div>
