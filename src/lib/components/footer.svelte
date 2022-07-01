@@ -29,6 +29,8 @@
 					</div>
 
 					<div class="disposition">
+						<hr class="solid" />
+						<p><b>CONTATTI</b></p>
 						<div class="iconf">
 							<img
 								style="height: 20px; width:20px; margin-right:10px;"
@@ -81,6 +83,8 @@
 					</div>
 
 					<div class="disposition">
+						<hr class="solid" />
+						<p><b>CONTATTI</b></p>
 						<div class="iconf">
 							<img
 								style="height: 20px; width:20px; margin-right:10px;"
@@ -131,7 +135,8 @@
 
 					<div class="disposition">
 						<hr class="solid" />
-						<div class="iconf">
+						<p><b>CONTATTI</b></p>
+						<div class="iconf-mobile">
 							<img
 								style="height: 20px; width:20px; margin-right:10px;"
 								src={Map}
@@ -139,7 +144,7 @@
 							/>
 							<p>indirizzo sede amministrativa</p>
 						</div>
-						<div class="iconf">
+						<div class="iconf-mobile">
 							<img
 								style="height: 20px; width:20px; margin-right:10px;"
 								src={Phone}
@@ -147,7 +152,7 @@
 							/>
 							<p>(+39) 342 1234567</p>
 						</div>
-						<div class="iconf">
+						<div class="iconf-mobile">
 							<img
 								style="height: 20px; width:20px; margin-right:10px;"
 								src={At}
@@ -189,7 +194,15 @@
 		display: flex;
 		align-items: center;
 		justify-content: left;
+		height: 23px;
 	}
+
+	.iconf-mobile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	.footer {
 		bottom: 0;
 		width: 100%;
