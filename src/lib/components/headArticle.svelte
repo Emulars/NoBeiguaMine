@@ -1,8 +1,9 @@
-<script>
+<script  context="module">
     import mid from "../../images/2.jpg";
     import MediaQuery from "$lib/Utility/MediaQuery.svelte";
-    const heading = "Parco del Beigua: scoperiamo insieme la riserva naturale".toUpperCase()
-    const heading_2 = "che si affaccia sulla costa ligure".toUpperCase();
+    import { writable } from 'svelte/store'
+        export const title = writable('');
+        export const image = writable('');
 </script>
 
 <main>
@@ -11,11 +12,10 @@
         {#if matches}
         <div class="root desktop">
             <div class="Heroimg">
-                <img class="description" src={mid} alt="Description" />
+                <img class="description" src={$image} alt="Description" />
                 <div class="Herotxt">
-                    
                     <p class="mdc-typography--subtitle1">
-                        {heading}<br>{heading_2}
+                        {$title}
                     </p>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                 <div class="Herotxt">
                     
                     <p class="mdc-typography--subtitle1">
-                        {heading}<br>{heading_2}
+                        {$title}
                     </p>
                 </div>
             </div>
@@ -45,11 +45,11 @@
         {#if matches}
         <div class="root mobile">
             <div class="Heroimg">
-                <img class="description" src={mid} alt="Description" />
+                <img class="description" src={$image} alt="Description" />
                 <div class="Herotxt">
                     
                     <p class="mdc-typography--subtitle1">
-                        {heading}<br>{heading_2}
+                        {$title}
                     </p>
                 </div>
             </div>
@@ -62,11 +62,11 @@
         {#if matches}
         <div class="root foldable">
             <div class="Heroimg">
-                <img class="description" src={mid} alt="Description" />
+                <img class="description" src={$image} alt="Description" />
                 <div class="Herotxt">
                     
                     <p class="mdc-typography--subtitle1">
-                        {heading}<br>{heading_2}
+                        {$title}
                     </p>
                 </div>
             </div>
@@ -119,6 +119,7 @@
     .desktop .Heroimg {
         width: 100%;
         height: 400px;
+        background-image : url({base});
     }
         
     .desktop  .description{
@@ -128,6 +129,7 @@
         background-size: cover;
         position: relative;
         object-fit: cover;
+        background-image : url({base});
     }
 
     /* Tablet */

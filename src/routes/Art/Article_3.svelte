@@ -2,6 +2,11 @@
 	import News from "../../lib/collection/vertical_news.svelte";
 	import Head from "$lib/components/headArticle.svelte";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
+		// headArticle dinamic + text 
+		import doc from "../../images/card/card_3.jpg";
+    import { title,image } from "$lib/components/headArticle.svelte";
+  		title.set('GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: 25.000 FIRME PER OPPORSI ALL’APERTURA');
+        image.set(doc);
 </script>
 
 <main>

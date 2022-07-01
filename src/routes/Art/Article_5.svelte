@@ -2,6 +2,11 @@
 	import News from "../../lib/collection/vertical_news.svelte";
 	import Head from "$lib/components/headArticle.svelte";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
+		 // headArticle dinamic + text 
+		 import doc from "../../images/card/card_5.jpg";
+    import { title,image } from "$lib/components/headArticle.svelte";
+  		title.set('ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO CON POTENZIALITÀ IMPORTANTI');
+        image.set(doc);
 </script>
 
 <main>

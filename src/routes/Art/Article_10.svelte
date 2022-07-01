@@ -2,6 +2,11 @@
 	import News from "../../lib/collection/vertical_news.svelte";
 	import Head from "$lib/components/headArticle.svelte";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
+	 // headArticle dinamic + text 
+	 import doc from "../../images/card/card_10.jpg";
+    import { title,image } from "$lib/components/headArticle.svelte";
+  		title.set('TITANIO SUL BEIGUA, IL SINDACO DI SASSELLO: “IL PARCO POTREBBE PERDERE IL RICONOSCIMENTO DELL’UNESCO”');
+        image.set(doc);
 </script>
 
 <main>
