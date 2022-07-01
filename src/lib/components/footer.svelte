@@ -194,7 +194,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: left;
-		height: 23px;
+		height: 24px;
 	}
 
 	.iconf-mobile {
