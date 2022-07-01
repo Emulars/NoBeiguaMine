@@ -228,7 +228,7 @@
                     </div>
                     <div class="cards" style="align-items: center;">
                         <div class="card-container">
-                            <Card style="min-width: 300px;">
+                            <Card >
                                 <PrimaryAction on:click={() => clickinner1()}>
                                     <Media
                                         class="card-media-squaren1"
@@ -248,7 +248,7 @@
                             </Card>
                         </div>
                         <div class="card-container">
-                            <Card style="min-width: 300px;">
+                            <Card >
                                 <PrimaryAction on:click={() => clickinner2()}>
                                     <Media
                                         class="card-media-squaren2"
@@ -268,7 +268,7 @@
                             </Card>
                         </div>
                         <div class="card-container">
-                            <Card style="min-width: 300px;">
+                            <Card >
                                 <PrimaryAction on:click={() => clickinner3()}>
                                     <Media
                                         class="card-media-squaren3"
@@ -362,6 +362,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+    .mobile .card-container{
+        width: 250px;
     }
     * :global(.card-media-squaren1) {
         background-image: url(../../images/card/card_1.jpg);
