@@ -148,6 +148,8 @@
         font-family: "Oswald", sans-serif;
         text-decoration: none;
         color: black;
+        text-transform: uppercase;
+		letter-spacing: 3px;
     }
     .text_b,
     a:visited {
