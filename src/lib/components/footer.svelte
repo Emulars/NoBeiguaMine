@@ -119,7 +119,18 @@
 			<div class="footer">
 				<span class="block">
 					<img class="logoFooter" src={Logofooter} alt="My logo" />
+
 					<div class="disposition">
+						<hr class="solid" />
+						<p><b>MENU</b></p>
+			
+						<a class="links" href="/articles">Articoli</a><br /><br />
+						<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
+						<a class="links" href="/whoami">Chi siamo</a>
+					</div>
+
+					<div class="disposition">
+						<hr class="solid" />
 						<div class="iconf">
 							<img
 								style="height: 20px; width:20px; margin-right:10px;"
@@ -145,14 +156,8 @@
 							<p>info@mountance.it</p>
 						</div>
 					</div>
-					<div class="disposition">
-						<hr class="solid" />
-						<p><b>MENU</b></p>
-			
-						<a class="links" href="/articles">Articoli</a><br /><br />
-						<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
-						<a class="links" href="/whoami">Chi siamo</a>
-					</div>
+
+
 				</span>
 			</div>
         </div>
@@ -225,7 +230,8 @@
 	
 	/* Mobile 480px or lower*/
 	.mobile hr.solid {
-		border-top: 3px solid #bbb;
+		border-top: 1px solid #ffffff;
+		width: 250px;
 	}
 	.mobile .block {
 		display: flex;
