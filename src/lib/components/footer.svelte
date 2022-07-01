@@ -14,56 +14,21 @@
         <div class="root desktop">
             <div class="footer">
 				<span class="block">
-					<div class="disposition">
-						<img class="logoFooter" src={Logofooter} alt="My logo" />
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={Map}
-								alt="address"
-							/>
-							<p>indirizzo sede amministrativa</p>
+					<div class="disposition_contact" >
+						<div>
+							<img class="logoFooter" src={Logofooter} alt="My logo" />
 						</div>
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={Phone}
-								alt="number"
-							/>
-							<p>(+39) 342 1234567</p>
-						</div>
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={At}
-								alt="email"
-							/>
-							<p>infp@mountance.it</p>
+						<div>
+							<hr class="solid" />
+							<p><b>MENU</b></p>
+				
+							<a class="links" href="/articles">Articoli</a><br /><br />
+							<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
+							<a class="links" href="/whoami">Chi siamo</a>
 						</div>
 					</div>
-					<!--  -->
-					<div class="disposition">
-						<hr class="solid" />
-						<p><b>MENU</b></p>
-			
-						<a class="links" href="/articles">Articoli</a><br /><br />
-						<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
-						<a class="links" href="/whoami">Chi siamo</a>
-					</div>
-				</span>
-			</div>
-        </div>
-        {/if}
-    </MediaQuery>
 
-	<!-- Tablet -->
-	<MediaQuery query="(min-width: 481px) and (max-width: 1280px)" let:matches>
-        {#if matches}
-        <div class="root tablet">
-            <div class="footer">
-				<span class="block">
 					<div class="disposition">
-						<img class="logoFooter" src={Logofooter} alt="My logo" />
 						<div class="iconf">
 							<img
 								style="height: 20px; width:20px; margin-right:10px;"
@@ -89,14 +54,58 @@
 							<p>info@mountance.it</p>
 						</div>
 					</div>
-					<div class="disposition">
-						<hr class="solid" />
-						<p><b>MENU</b></p>
-			
-						<a class="links" href="/articles">Articoli</a><br /><br />
-						<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
-						<a class="links" href="/whoami">Chi siamo</a>
+				</span>
+			</div>
+        </div>
+        {/if}
+    </MediaQuery>
+
+	<!-- Tablet -->
+	<MediaQuery query="(min-width: 541px) and (max-width: 1280px)" let:matches>
+        {#if matches}
+        <div class="root tablet">
+            <div class="footer">
+				<span class="block">
+					<div class="disposition_contact">
+						<div>
+							<img class="logoFooter" src={Logofooter} alt="My logo" />
+						</div>
+						<div>
+							<hr class="solid" />
+							<p><b>MENU</b></p>
+				
+							<a class="links" href="/articles">Articoli</a><br /><br />
+							<a class="links" href="/timeline_parallax">Cronostoria</a><br /><br />
+							<a class="links" href="/whoami">Chi siamo</a>
+						</div>
 					</div>
+
+					<div class="disposition">
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={Map}
+								alt="address"
+							/>
+							<p>indirizzo sede amministrativa</p>
+						</div>
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={Phone}
+								alt="number"
+							/>
+							<p>(+39) 342 1234567</p>
+						</div>
+						<div class="iconf">
+							<img
+								style="height: 20px; width:20px; margin-right:10px;"
+								src={At}
+								alt="email"
+							/>
+							<p>info@mountance.it</p>
+						</div>
+					</div>	
 				</span>
 			</div>
         </div>
@@ -104,13 +113,13 @@
     </MediaQuery>
 
 	<!-- Mobile -->
-	<MediaQuery query="(max-width: 480px)" let:matches>
+	<MediaQuery query="(max-width: 540px)" let:matches>
         {#if matches}
         <div class="root mobile">
 			<div class="footer">
 				<span class="block">
+					<img class="logoFooter" src={Logofooter} alt="My logo" />
 					<div class="disposition">
-						<img class="logoFooter" src={Logofooter} alt="My logo" />
 						<div class="iconf">
 							<img
 								style="height: 20px; width:20px; margin-right:10px;"
@@ -154,6 +163,15 @@
 <style>
 
 	/* Generic */
+
+	.disposition_contact {
+		font-family: "Roboto Light", sans-serif;
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+    	width: 290px;
+	}
+
 	.disposition {
 		font-family: "Roboto Light", sans-serif;
 		text-align: left;

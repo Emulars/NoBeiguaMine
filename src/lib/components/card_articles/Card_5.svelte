@@ -143,6 +143,7 @@
         background-color: #a2d5ab;
         width: 120px;
         color: white;
+        padding: 4px 4px 4px 4px;
     }
 
     h3 {
