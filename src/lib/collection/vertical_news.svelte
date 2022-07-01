@@ -352,7 +352,7 @@
         height: 50%;*/
     }
     .desktop .card-container{
-        width: 500px;
+        width: 350px;
     }
 
     .tablet .cards {
