@@ -34,7 +34,7 @@
             <div class="root desktop">
                 <div
                     class="mdc-typography--headline3 News"
-                    style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                    style="text-align:center;  padding-bottom:35px; font-family:'Oswald Regular',sans-serif;"
                 >
                     <div
                         class="mdc-typography--headline3 title"
@@ -351,11 +351,17 @@
         /*width: 50%;
         height: 50%;*/
     }
+    .desktop .card-container{
+        width: 500px;
+    }
 
     .tablet .cards {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+    .tablet .card-container{
+        width: 400px;
     }
 
     .mobile .cards {
