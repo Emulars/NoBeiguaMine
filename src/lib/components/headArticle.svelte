@@ -28,7 +28,7 @@
         {#if matches}
         <div class="root tablet">
             <div class="Heroimg">
-                <img class="description" src={mid} alt="Description" />
+                <img class="description" src={$image} alt="Description" />
                 <div class="Herotxt">
                     
                     <p class="mdc-typography--subtitle1">

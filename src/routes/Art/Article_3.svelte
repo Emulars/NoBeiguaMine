@@ -254,12 +254,12 @@
 		margin: 5% 5% 0 0; /* in alto | destra | in basso | sinistra */
 		align-items: center;
 	} 
-
+/* 
     * :global(.card-media-16x9) {
         background-image: url(../../../images/beiglarge.jpg);
         background-size: auto;
         filter: brightness(80%);
-    }
+    } */
 	.title {
         color: #39aea9;
 		font-family:'Oswald',sans-serif;
@@ -273,9 +273,9 @@
 		font-size: 25px;
 	}
 
-    * :global(.card-media-16x9) {
+    /* * :global(.card-media-16x9) {
       background-image: url(../../../images/beiglarge.jpg);
-    }
+    } */
 
 	.article{
 		margin: 10% 0 0 10%;

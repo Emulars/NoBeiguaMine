@@ -204,11 +204,11 @@
 	align-items: center;
 } 
 
-* :global(.card-media-16x9) {
+/* * :global(.card-media-16x9) {
 	background-image: url(../../../images/beiglarge.jpg);
 	background-size: auto;
 	filter: brightness(80%);
-}
+} */
 .title {
 	color: #39aea9;
 	font-family:'Oswald',sans-serif;
@@ -221,10 +221,10 @@
 	line-height: 1.5em;
 	font-size: 25px;
 }
-
+/* 
 * :global(.card-media-16x9) {
   background-image: url(../../../images/beiglarge.jpg);
-}
+} */
 
 .article{
 	margin: 10% 0 0 10%;
