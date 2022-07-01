@@ -1,6 +1,7 @@
 <script lang="ts">
 	import NavBar from "$lib/components/NavBar.svelte";
 	import Footer from "$lib/components/footer.svelte";
+	import Cookies from "$lib/components/cookies.svelte";
 </script>
 
 
@@ -14,6 +15,9 @@
 
 <!-- Footer  -->
 <Footer />
+
+<!-- Cookies  -->
+<Cookies />
 
 <style>
 

@@ -4,6 +4,7 @@
 	import Map from "../../images/map.png";
 	import Phone from "../../images/phone.png";
 	import At from "../../images/at.png";
+	//import Cookies from "./cookies.svelte";
 </script>
 
 
@@ -142,7 +143,7 @@
 								src={Map}
 								alt="address"
 							/>
-							<p>indirizzo sede amministrativa</p>
+							<p style="width:60%">indirizzo sede amministrativa</p>
 						</div>
 						<div class="iconf-mobile">
 							<img
@@ -168,6 +169,7 @@
         </div>
         {/if}
     </MediaQuery> 
+
 </main>
 
 <style>
@@ -195,12 +197,14 @@
 		align-items: center;
 		justify-content: left;
 		height: 24px;
+		width: 100%;
 	}
 
 	.iconf-mobile {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		width: 100%;
 	}
 
 	.footer {
