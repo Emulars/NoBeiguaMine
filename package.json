@@ -15,6 +15,7 @@
         "theme": "npm run smui-light && npm run smui-dark"
     },
     "devDependencies": {
+        "@beyonk/gdpr-cookie-consent-banner": "^9.0.3",
         "@material/theme": "^13.0.0",
         "@material/typography": "^13.0.0",
         "@mdi/js": "^6.6.96",
