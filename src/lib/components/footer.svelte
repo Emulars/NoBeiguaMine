@@ -169,7 +169,6 @@
         </div>
         {/if}
     </MediaQuery> 
-
 </main>
 
 <style>
@@ -266,11 +265,7 @@
 		width: 150px;
 		justify-content: center;
 	}
-	.mobile .iconf {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+	
 	.mobile .disposition {
 		font-family: "Roboto Light", sans-serif;
 		text-align: center;

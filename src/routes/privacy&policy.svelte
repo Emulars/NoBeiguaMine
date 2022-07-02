@@ -1,7 +1,5 @@
 <script>
     import MediaQuery from "$lib/Utility/MediaQuery.svelte";
-    import Hero from "../lib/components/head.svelte";
-    import unige from "../images/unige.png";
 </script>
 
 <main>
