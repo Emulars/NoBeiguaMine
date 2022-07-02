@@ -22,8 +22,10 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						TITANIO SUL BEIGUA, IL SINDACO DI SASSELLO: <br/>
-						<i>“IL PARCO POTREBBE PERDERE IL RICONOSCIMENTO DELL’UNESCO”</i>
+						Il sindaco di Sassello, Daniele Buschiazzo, ha parlato dei rischi <br/>
+						derivanti da una possibile apertura della miniera di titanio <br/>
+						presente nel Parco del Beigua: tra questi anche il pericolo <br/>
+						di essere rimossi tra i siti riconosciuti dall’Unesco.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -81,8 +83,10 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						TITANIO SUL BEIGUA, IL SINDACO DI SASSELLO: <br/>
-						<i>“IL PARCO POTREBBE PERDERE IL RICONOSCIMENTO DELL’UNESCO”</i>
+						Il sindaco di Sassello, Daniele Buschiazzo, ha parlato dei rischi <br/>
+						derivanti da una possibile apertura della miniera di titanio <br/>
+						presente nel Parco del Beigua: tra questi anche il pericolo <br/>
+						di essere rimossi tra i siti riconosciuti dall’Unesco.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -139,8 +143,10 @@
 		<div class="column-1">
 			<div class="article">
 				<div class="mdc-typography--headline4 title">
-					TITANIO SUL BEIGUA, IL SINDACO DI SASSELLO: <br/>
-					<i>“IL PARCO POTREBBE PERDERE IL RICONOSCIMENTO DELL’UNESCO”</i>
+					Il sindaco di Sassello, Daniele Buschiazzo, ha parlato dei rischi <br/>
+					derivanti da una possibile apertura della miniera di titanio <br/>
+					presente nel Parco del Beigua: tra questi anche il pericolo <br/>
+					di essere rimossi tra i siti riconosciuti dall’Unesco.<br/>
 				</div>
 					
 				<div class="mdc-typography--body1 text">

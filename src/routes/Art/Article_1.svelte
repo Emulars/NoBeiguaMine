@@ -23,9 +23,9 @@
 				<div class="column-1">
 					<div class="article">
 						<div class="mdc-typography--headline4 title">
-							PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA
-							NATURALE <br />
-							CHE SI AFFACCIA SULLA COSTA LIGURE
+							Alla scoperta del Parco del Beigua, una delle zone più affascinanti<br />
+							della Liguria affacciata sul Mediterraneo e <br />
+							caratterizzata da una spiccata biodiversità.<br />
 						</div>
 
 						<div class="mdc-typography--body1 text">
@@ -119,9 +119,9 @@
 				<div class="column-1">
 					<div class="article">
 						<div class="mdc-typography--headline4 title">
-							PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA
-							NATURALE <br />
-							CHE SI AFFACCIA SULLA COSTA LIGURE
+							Alla scoperta del Parco del Beigua, una delle zone più affascinanti<br />
+							della Liguria affacciata sul Mediterraneo e <br />
+							caratterizzata da una spiccata biodiversità.<br />
 						</div>
 
 						<div class="mdc-typography--body1 text">
@@ -215,9 +215,9 @@
 				<div class="column-1">
 					<div class="article">
 						<div class="mdc-typography--headline4 title">
-							PARCO DEL BEIGUA: SCOPRIAMO INSIEME LA RISERVA
-							NATURALE <br />
-							CHE SI AFFACCIA SULLA COSTA LIGURE
+							Alla scoperta del Parco del Beigua, una delle zone più affascinanti<br />
+							della Liguria affacciata sul Mediterraneo e <br />
+							caratterizzata da una spiccata biodiversità.<br />
 						</div>
 
 						<div class="mdc-typography--body1 text">

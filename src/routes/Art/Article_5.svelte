@@ -22,8 +22,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO <br/>
-						CON POTENZIALITÀ IMPORTANTI
+						Presentato come pericoloso e dannoso per l’ambiente e <br/>
+						per la salute della popolazione, <br/>
+						il titanio può rivelarsi in realtà una risorsa strategica.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -94,8 +95,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO <br/>
-						CON POTENZIALITÀ IMPORTANTI
+						Presentato come pericoloso e dannoso per l’ambiente e <br/>
+						per la salute della popolazione, <br/>
+						il titanio può rivelarsi in realtà una risorsa strategica.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -165,8 +167,9 @@
 		<div class="column-1">
 			<div class="article">
 				<div class="mdc-typography--headline4 title">
-					ALLA SCOPERTA DEL TITANIO, MINERALE DANNOSO <br/>
-					CON POTENZIALITÀ IMPORTANTI
+					Presentato come pericoloso e dannoso per l’ambiente e <br/>
+					per la salute della popolazione, <br/>
+					il titanio può rivelarsi in realtà una risorsa strategica.<br/>
 				</div>
 					
 				<div class="mdc-typography--body1 text">

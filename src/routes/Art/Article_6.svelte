@@ -22,8 +22,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						BEIGUA, CHE DESTINO SPETTERÀ ALLA FLORA E ALLA FAUNA CON 
-						L’APERTURA DELLA MINERA DI TITANIO
+						Perché l’apertura della miniera di titanio presente nel parco del <br/>
+						Beigua può uccidere la flora e la fauna della zona: analizziamo <br/>
+						tutte le conseguenze di questa scelta.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -100,8 +101,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						BEIGUA, CHE DESTINO SPETTERÀ ALLA FLORA E ALLA FAUNA CON 
-						L’APERTURA DELLA MINERA DI TITANIO
+						Perché l’apertura della miniera di titanio presente nel parco del <br/>
+						Beigua può uccidere la flora e la fauna della zona: analizziamo <br/>
+						tutte le conseguenze di questa scelta.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -178,8 +180,9 @@
 		<div class="column-1">
 			<div class="article">
 				<div class="mdc-typography--headline4 title">
-					BEIGUA, CHE DESTINO SPETTERÀ ALLA FLORA E ALLA FAUNA CON
-					L’APERTURA DELLA MINERA DI TITANIO
+					Perché l’apertura della miniera di titanio presente nel parco del <br/>
+					Beigua può uccidere la flora e la fauna della zona: analizziamo <br/>
+					tutte le conseguenze di questa scelta.<br/>
 				</div>
 					
 				<div class="mdc-typography--body1 text">

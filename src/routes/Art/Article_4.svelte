@@ -23,9 +23,9 @@
 				<div class="column-1">
 					<div class="article">
 						<div class="mdc-typography--headline4 title">
-							PARCO DEL BEIGUA, ECCO QUALI RISCHI COMPORTEREBBE <br
-							/>
-							L’APERTURA DELLA MINIERA DI TITANIO
+							L’apertura della miniera del Parco del Beigua e la conseguente <br />
+							estrazione del titanio dal giacimento di Piampaludo sarebbe <br />
+							una scelta sbagliata: numerosi i rischi ambientali e sanitari.<br />
 						</div>
 
 						<div class="mdc-typography--body1 text">
@@ -104,9 +104,9 @@
 				<div class="column-1">
 					<div class="article">
 						<div class="mdc-typography--headline4 title">
-							PARCO DEL BEIGUA, ECCO QUALI RISCHI COMPORTEREBBE <br
-							/>
-							L’APERTURA DELLA MINIERA DI TITANIO
+							L’apertura della miniera del Parco del Beigua e la conseguente <br />
+							estrazione del titanio dal giacimento di Piampaludo sarebbe <br />
+							una scelta sbagliata: numerosi i rischi ambientali e sanitari.<br />
 						</div>
 
 						<div class="mdc-typography--body1 text">
@@ -185,9 +185,9 @@
 				<div class="column-1">
 					<div class="article">
 						<div class="mdc-typography--headline4 title">
-							PARCO DEL BEIGUA, ECCO QUALI RISCHI COMPORTEREBBE <br
-							/>
-							L’APERTURA DELLA MINIERA DI TITANIO
+							L’apertura della miniera del Parco del Beigua e la conseguente <br />
+							estrazione del titanio dal giacimento di Piampaludo sarebbe <br />
+							una scelta sbagliata: numerosi i rischi ambientali e sanitari.<br />
 						</div>
 
 						<div class="mdc-typography--body1 text">

@@ -22,8 +22,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						2022 ANNO DI RIPARTENZE: NUOVE RICHERCHE DEL TITANIO <br/>
-						NEL PARCO REGIONALE DEL BEIGUA
+						Riparte la ricerca di materie prime nel Savonese: <br/>
+						con il nuovo anno sono iniziate le indagini non invasive con il <br/>
+						georadar per trovare tracce di titanio nel Beigua.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -69,8 +70,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						2022 ANNO DI RIPARTENZE: NUOVE RICHERCHE DEL TITANIO <br/>
-						NEL PARCO REGIONALE DEL BEIGUA
+						Riparte la ricerca di materie prime nel Savonese: <br/>
+						con il nuovo anno sono iniziate le indagini non invasive con il <br/>
+						georadar per trovare tracce di titanio nel Beigua.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -115,8 +117,9 @@
 		<div class="column-1">
 			<div class="article">
 				<div class="mdc-typography--headline4 title">
-					2022 ANNO DI RIPARTENZE: NUOVE RICHERCHE DEL TITANIO <br/>
-					NEL PARCO REGIONALE DEL BEIGUA
+					Riparte la ricerca di materie prime nel Savonese: <br/>
+					con il nuovo anno sono iniziate le indagini non invasive con il <br/>
+					georadar per trovare tracce di titanio nel Beigua.<br/>
 				</div>
 					
 				<div class="mdc-typography--body1 text">

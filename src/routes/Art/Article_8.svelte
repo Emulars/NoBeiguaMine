@@ -22,8 +22,8 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						SEA SHEPARD ED ECOWARRIOR: COME LOTTARE PER I<br/>
-						DIRITTI AMBIENTALI DIVERTENDOSI
+						Sea Shepard ed EcoWarrior: la storia di organizzazioni che hanno fatto<br/>
+						della lotta per i diritti ambientale il loro main purpose.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -74,8 +74,8 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						SEA SHEPARD ED ECOWARRIOR: COME LOTTARE PER I<br/>
-						DIRITTI AMBIENTALI DIVERTENDOSI
+						Sea Shepard ed EcoWarrior: la storia di organizzazioni che hanno fatto<br/>
+						della lotta per i diritti ambientale il loro main purpose.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -124,8 +124,8 @@
 		<div class="column-1">
 			<div class="article">
 				<div class="mdc-typography--headline4 title">
-					SEA SHEPARD ED ECOWARRIOR: COME LOTTARE PER I<br/>
-					DIRITTI AMBIENTALI DIVERTENDOSI
+					Sea Shepard ed EcoWarrior: la storia di organizzazioni che hanno fatto<br/>
+					della lotta per i diritti ambientale il loro main purpose.<br/>
 				</div>
 					
 				<div class="mdc-typography--body1 text">

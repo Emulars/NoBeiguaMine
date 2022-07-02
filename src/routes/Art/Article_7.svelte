@@ -22,7 +22,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						MINIERA NEL PARCO DEL BEIGUA: GLI SCENARI FUTURI
+						Nelle ultime settimane ha fatto strada l’ipotesi di una possibile <br/>
+						apertura della miniera di titanio presente nel Parco regionale <br/>
+						del Beigua: quali sono i rischi e gli scenari futuri di tale scelta.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -81,7 +83,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						MINIERA NEL PARCO DEL BEIGUA: GLI SCENARI FUTURI
+						Nelle ultime settimane ha fatto strada l’ipotesi di una possibile <br/>
+						apertura della miniera di titanio presente nel Parco regionale <br/>
+						del Beigua: quali sono i rischi e gli scenari futuri di tale scelta.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -139,7 +143,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						MINIERA NEL PARCO DEL BEIGUA: GLI SCENARI FUTURI
+						Nelle ultime settimane ha fatto strada l’ipotesi di una possibile <br/>
+						apertura della miniera di titanio presente nel Parco regionale <br/>
+						del Beigua: quali sono i rischi e gli scenari futuri di tale scelta.<br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">

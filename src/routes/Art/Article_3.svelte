@@ -22,8 +22,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: <br/> 
-                        25.000 FIRME PER OPPORSI ALL’APERTURA
+						La popolazione ligure si oppone all’apertura della miniera di titanio <br/>
+                        presente nel Beigua, 25.000 persone firmano la petizione: <br/>
+                        <i>“È una scelta sbagliata, rischi ambientali evidenti”.</i><br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -86,8 +87,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: <br/> 
-                        25.000 FIRME PER OPPORSI ALL’APERTURA
+						La popolazione ligure si oppone all’apertura della miniera di titanio <br/>
+                        presente nel Beigua, 25.000 persone firmano la petizione: <br/>
+                        <i>“È una scelta sbagliata, rischi ambientali evidenti”.</i><br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
@@ -149,8 +151,9 @@
 			<div class="column-1">
 				<div class="article">
 					<div class="mdc-typography--headline4 title">
-						GIACIMENTO DI PIAMPALUDO, LA POPOLAZIONE INSORGE: <br/> 
-                        25.000 FIRME PER OPPORSI ALL’APERTURA
+						La popolazione ligure si oppone all’apertura della miniera di titanio <br/>
+                        presente nel Beigua, 25.000 persone firmano la petizione: <br/>
+                        <i>“È una scelta sbagliata, rischi ambientali evidenti”.</i><br/>
 					</div>
 						
 					<div class="mdc-typography--body1 text">
