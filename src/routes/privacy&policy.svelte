@@ -385,7 +385,7 @@
 <style>
     .root {
         display: flex;
-        background-color: #ededed;
+        /*background-color: #ededed;*/
     }
     .art {
         display: flex;

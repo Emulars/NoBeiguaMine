@@ -5,6 +5,7 @@
 	let topAppBar: TopAppBarComponentDev;
     import MediaQuery from "$lib/Utility/MediaQuery.svelte";
 	import Logo from "../../images/LBlack.png";
+    import Insta from "../../images/instagram.png";
 
     import { createEventDispatcher } from 'svelte';
     let shown = false;
@@ -32,6 +33,13 @@
             
                     <!-- MENU -->
                     <Section align="end" toolbar>
+                        <a href="https://www.instagram.com/mountain_resistance_/" target="_blank" rel="noopener noreferrer">
+                            <img
+                            style="height: 20px; width:20px; margin-right:10px;"
+                            src={Insta}
+                            alt="instagram"
+                            />
+                        </a>
                         <Button aria-label="" href="/articles">
                             <span>Articoli</span>
                         </Button>
@@ -65,6 +73,13 @@
             
                     <!-- MENU -->
                     <Section align="end" toolbar>
+                        <a href="https://www.instagram.com/mountain_resistance_/" target="_blank" rel="noopener noreferrer">
+                            <img
+                            style="height: 20px; width:20px; margin-right:10px;"
+                            src={Insta}
+                            alt="instagram"
+                            />
+                        </a>
                         <Button aria-label="" href="/articles">
                             <span>Articoli</span>
                         </Button>
@@ -107,6 +122,13 @@
                 {#if shown}
                     <Row>
                         <Section align="end" toolbar>
+                            <a href="https://www.instagram.com/mountain_resistance_/" target="_blank" rel="noopener noreferrer">
+                                <img
+                                style="height: 20px; width:20px; margin-right:10px;"
+                                src={Insta}
+                                alt="instagram"
+                                />
+                            </a>
                             <Button aria-label="" href="/articles">
                                 <span>Articoli</span>
                             </Button>
