@@ -228,6 +228,7 @@
 	font-family:'Roboto',sans-serif;
 	margin: 0 0 15px 0;
 	line-height: 1.5em;
+	text-transform: uppercase;
 }
 
 .text{

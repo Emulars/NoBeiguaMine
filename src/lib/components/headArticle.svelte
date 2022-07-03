@@ -14,9 +14,9 @@
             <div class="Heroimg">
                 <img class="description" src={$image} alt="Description" />
                 <div class="Herotxt">
-                    <p class="mdc-typography--subtitle1">
+                    <div class="mdc-typography--headline4 subTitle">
                         {$title}
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -31,9 +31,9 @@
                 <img class="description" src={$image} alt="Description" />
                 <div class="Herotxt">
                     
-                    <p class="mdc-typography--subtitle1">
+                    <div class="mdc-typography--headline4 subTitle">
                         {$title}
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -48,9 +48,9 @@
                 <img class="description" src={$image} alt="Description" />
                 <div class="Herotxt">
                     
-                    <p class="mdc-typography--subtitle1">
+                    <div class="mdc-typography--headline4 ">
                         {$title}
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,9 +65,9 @@
                 <img class="description" src={$image} alt="Description" />
                 <div class="Herotxt">
                     
-                    <p class="mdc-typography--subtitle1">
+                    <div class="mdc-typography--headline4">
                         {$title}
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,6 +79,10 @@
 
 
 <style>
+    .subTitle{
+        padding: 0 20% 0 20%;
+    }
+
     .Heroimg {
         width: 100%;
         margin: 0px;
