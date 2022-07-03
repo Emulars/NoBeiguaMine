@@ -47,6 +47,7 @@
         "@svelte-web-fonts/google": "^1.0.4",
         "install": "^0.13.0",
         "jquery": "^3.6.0",
+        "mixpanel-browser": "^2.45.0",
         "npm": "^8.11.0",
         "svelte-vertical-timeline": "^0.0.2",
         "svrollbar": "^0.12.0"
