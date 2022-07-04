@@ -79,10 +79,6 @@
 
 
 <style>
-    .subTitle{
-        padding: 0 20% 0 20%;
-    }
-
     .Heroimg {
         width: 100%;
         margin: 0px;
@@ -115,9 +111,10 @@
     }
 
     /* Desktop */
-    .desktop p{
+    .desktop .subTitle{
         font-size: 2em;
         line-height: 1.5em;
+        padding: 0 20% 0 20%;
     }
 
     .desktop .Heroimg {
@@ -138,9 +135,10 @@
 
     /* Tablet */
     
-    .tablet p{
+    .tablet .subTitle{
         font-size: 1.8em;
         line-height: 1.5em;
+        padding: 0 20% 0 20%;
     }
 
     .tablet .Heroimg {
@@ -158,7 +156,7 @@
     }
 
     /* Mobile */
-    .mobile p{
+    .mobile .subTitle{
         font-size: 1.5em;
         line-height: 1.5em;
     }
@@ -178,7 +176,7 @@
     }
 
     /* Foldable */
-    .foldable p{
+    .foldable .subTitle{
         font-size: 1em;
         line-height: 1.5em;
     }

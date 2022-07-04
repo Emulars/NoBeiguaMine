@@ -6,11 +6,10 @@ Say no to the mine in the Beigua Regional Natural Park!
 
 - [No alla miniera sul Beigua](https://noallaminierasulbeigua.it/)
 
-## Update Notes:
+## Live demo
 
-### 1.0.0
+<https://mountainresistance.vercel.app/>
 
-- Svelte project inizialization
 
 ## Gruppo 3
 

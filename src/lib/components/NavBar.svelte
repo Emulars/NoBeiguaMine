@@ -28,7 +28,7 @@
                 <Row>
                     <!-- LOGO -->
                     <Section>
-                        <a href="http://localhost:3000/"><img class="LogoP" src={Logo} alt="My logo" /></a>
+                        <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
                     <!-- MENU -->
@@ -43,7 +43,7 @@
                         <Button aria-label="" href="/articles">
                             <span>Articoli</span>
                         </Button>
-                        <Button aria-label="" href="/timeline_parallax">
+                        <Button aria-label="" href="/timeline">
                             <span>Cronistoria</span>
                         </Button>
                     </Section>
@@ -68,7 +68,7 @@
                 <Row>
                     <!-- LOGO -->
                     <Section>
-                        <a href="http://localhost:3000/"><img class="LogoP" src={Logo} alt="My logo" /></a>
+                        <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
                     <!-- MENU -->
@@ -83,7 +83,7 @@
                         <Button aria-label="" href="/articles">
                             <span>Articoli</span>
                         </Button>
-                        <Button aria-label="" href="/timeline_parallax">
+                        <Button aria-label="" href="/timeline">
                             <span>Cronistoria</span>
                         </Button>
                     </Section>
@@ -108,7 +108,7 @@
                 <Row>
                     <!-- LOGO -->
                     <Section>
-                        <a href="http://localhost:3000/"><img class="LogoP" src={Logo} alt="My logo" /></a>
+                        <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
                     <!-- MENU -->
@@ -132,7 +132,7 @@
                             <Button aria-label="" href="/articles">
                                 <span>Articoli</span>
                             </Button>
-                            <Button aria-label="" href="/timeline_parallax">
+                            <Button aria-label="" href="/timeline">
                                 <span>Cronistoria</span>
                             </Button>
                         </Section>

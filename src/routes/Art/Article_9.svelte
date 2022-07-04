@@ -3,7 +3,7 @@
 	import Head from "$lib/components/headArticle.svelte";
 	import MediaQuery from "$lib/Utility/MediaQuery.svelte";
 		 // headArticle dinamic + text 
-		 import doc from "../../images/card/card_9.jpg";
+		 import doc from "../../images/card/card_9.jpeg";
     import { title,image } from "$lib/components/headArticle.svelte";
   		title.set('2022 ANNO DI RIPARTENZE: NUOVE RICHERCHE DEL TITANIO NEL PARCO REGIONALE DEL BEIGUA');
         image.set(doc);
