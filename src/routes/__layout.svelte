@@ -52,17 +52,61 @@
 <Footer />
 <Cookies />
 {#if activate_banner}
-	<GdprBanner cookieName="cookie_banner" 
-				heading = "GDPR Notice"
-				description={banner_text} 
-				acceptLabel= 'Conferma preferenze'
-  				settingsLabel= 'Preferenze'
-  				closeLabel= 'Chiudi finestra'
-				choices={choices}
-				showEditIcon= false
-				on:analytics={initAnalytics} 
-				on:click={disableBanner}/>
+	<div class="GDPR">
+		<GdprBanner cookieName="cookie_banner" 
+					heading = "GDPR Notice"
+					description={banner_text} 
+					acceptLabel= 'Conferma preferenze'
+					settingsLabel= 'Preferenze'
+					closeLabel= 'Chiudi finestra'
+					choices={choices}
+					showEditIcon= false
+					on:analytics={initAnalytics} 
+					on:click={disableBanner}/>
+	</div>
 {/if}
-<style>
 
+<style>
+	.GDPR{
+		display: flexbox;
+	}
+
+	@media only screen and (min-width: 502px) and (max-width:1024px){ 
+		.GDPR :global(.cookieConsent) {
+			display: block;
+		}
+
+		.GDPR :global(.cookieConsent__Right){
+			margin-top: 20px;
+		}
+
+		.GDPR :global(.cookieConsent__Button) {
+			margin: 0 10px 10px 0;
+		}
+
+		.GDPR :global(.cookieConsent__Button--Close) {
+			margin: 40px 0 0;
+		}
+	}
+
+	@media only screen and (max-width: 501px){ 
+		.GDPR :global(.cookieConsent) {
+			display: block;
+		}
+
+		.GDPR :global(.cookieConsent__Right){
+			margin-top: 20px;
+			flex-direction: column;
+			align-items:unset;
+		}
+
+		.GDPR :global(.cookieConsent__Button) {
+			margin: 0 10px 10px 0;
+			width: 100%;
+		}
+
+		.GDPR :global(.cookieConsent__Button--Close) {
+			margin: 20px 0 0 0;
+		}
+	}		
 </style>
