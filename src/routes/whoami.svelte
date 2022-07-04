@@ -14,18 +14,13 @@
 		{#if matches}
 		<div class="root">
 			<div class="who">
-				<div>
+				<div style="width:60%">
 					<h1><img class="unige" src={unige} alt="unige" /></h1>
 				</div>
-				<div class="article">
+				<div class="article" style="width:50%">
 					<div class="mdc-typography--headline1 title">Chi siamo ?</div>
 					<div class="mdc-typography--body1 text">
-						Il team è composto da otto studenti dell’Università di Genova<br/>  
-						che	hanno lo scopo di sensibilizzare la popolazione ligure sul delicato<br />
-						tema dell’utilizzo di amianto in Italia. Quattro informatici,<br/>
-						tre designer e una studentessa di comunicazione hanno unito le loro<br/> 
-						competenze per ideare una campagna di sensibilizzazione basata sulla<br/>
-						divulgazione online	di informazioni utili alla causa.<br />
+						Il team è composto da otto studenti dell’Università di Genova che hanno lo scopo di sensibilizzare la popolazione ligure sul delicato tema dell’utilizzo di amianto in Italia. Quattro informatici, tre designer e una studentessa di comunicazione hanno unito le loro competenze per ideare una campagna di sensibilizzazione basata sulla divulgazione online di informazioni utili alla causa.<br />
 					</div>
 				</div>
 			</div>
@@ -44,16 +39,7 @@
 					<div class="article">
 						<div class="mdc-typography--headline1 title">Chi siamo ?</div>
 						<div class="mdc-typography--body1 text">
-							Il team è composto da otto studenti dell’Università di
-							Genova che <br />
-							hanno lo scopo di sensibilizzare la popolazione ligure sul delicato
-							<br />
-							tema dell’utilizzo di amianto in Italia. Quattro informatici,
-							tre<br />
-							designer e una studentessa di comunicazione hanno unito le loro competenze<br />
-							per ideare una campagna di sensibilizzazione basata sulla divulgazione
-							online<br />
-							di informazioni utili alla causa.<br />
+							Il team è composto da otto studenti dell’Università di Genova che hanno lo scopo di sensibilizzare la popolazione ligure sul delicato tema dell’utilizzo di amianto in Italia. Quattro informatici, tre designer e una studentessa di comunicazione hanno unito le loro competenze per ideare una campagna di sensibilizzazione basata sulla divulgazione online di informazioni utili alla causa.<br />
 						</div>
 					</div>
 				</div>
@@ -72,17 +58,7 @@
 				<div class="article">
 					<div class="mdc-typography--headline3 title">Chi siamo ?</div>
 					<div class="mdc-typography--body1 text">
-						Il team è composto da otto studenti dell’Università di
-						Genova che <br />
-						hanno lo scopo di sensibilizzare la popolazione ligure sul delicato
-						<br />
-						tema dell’utilizzo di amianto in Italia. Quattro informatici,
-						tre designer <br />
-						e una studentessa di comunicazione hanno unito le loro competenze
-						per <br />
-						ideare una campagna di sensibilizzazione basata sulla divulgazione
-						online<br />
-						di informazioni utili alla causa.<br />
+						Il team è composto da otto studenti dell’Università di Genova che hanno lo scopo di sensibilizzare la popolazione ligure sul delicato tema dell’utilizzo di amianto in Italia. Quattro informatici, tre designer e una studentessa di comunicazione hanno unito le loro competenze per ideare una campagna di sensibilizzazione basata sulla divulgazione online di informazioni utili alla causa.<br />
 					</div>
 				</div>
 			</div>
