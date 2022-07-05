@@ -6,21 +6,19 @@
 <main>
     <MediaQuery query="(min-width: 541px)" let:matches>
         {#if matches}
-            <a class="link" href="/privacy&policy">
-                <div class="content">
-                    <p class="text">Informativa sui contenuti | Informativa sulla Privacy | Informativa sui Cookies | credit*</p>
-                </div>
-            </a>
+            <div class="content">
+                <a class="link" href="/privacy&policy">Informativa sulla Privacy | </a>
+                <a class="link" href="/cookie_policy">Informativa sui Cookies</a>
+            </div>
         {/if}
     </MediaQuery>
 
     <MediaQuery query="(max-width: 540px)" let:matches>
         {#if matches}
-            <a class="link" href="/privacy&policy">
-                <div class="content">
-                    <p class="text">Informativa sui contenuti | Informativa sulla Privacy | Informativa sui Cookies | credit*</p>
-                </div>
-            </a>
+            <div class="content">
+                <a class="link" href="/privacy&policy">Informativa sulla Privacy | </a>
+                <a class="link" href="/cookie_policy">Informativa sui Cookies</a>
+            </div>
         {/if}
     </MediaQuery>    
 </main>
@@ -31,9 +29,6 @@
         height: 20px;
         font-size: 15px;
         text-align: center;
-    }
-
-    .text{
         margin-top: 0;
         margin-bottom: 0;
         text-align: center;
@@ -46,5 +41,7 @@
 
     .link{
         text-decoration: none;
+        display: inline;
+        color: white;
     }
 </style>

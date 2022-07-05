@@ -11,7 +11,7 @@
 		<MediaQuery query="(min-width: 900px)" let:matches>
 			{#if matches}
 			<div class="root desktop">
-				<div class="mdc-typography--headline1 title"> - Cronistoria - </div>
+				<div class="mdc-typography--headline3 title"> - Cronistoria - </div>
             	<div class="mdc-typography--body1 subTitle">del giacimento di titanio nel parco del beigua</div>
 				<!-- FIRST SECTION -->
                 <div class="section first">
@@ -199,7 +199,7 @@
         text-align: center;
         margin: -15px 0 0 0;
         padding-top: 15px;
-        padding-bottom: 30px;
+        padding-bottom: 45px;
 		background-color:#557B83;
     }
     .buttom {

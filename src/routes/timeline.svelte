@@ -22,7 +22,7 @@
     <MediaQuery query="(min-width: 900px)" let:matches>
         {#if matches}
         <div class="root desktop">
-            <div class="mdc-typography--headline1 title"> - Cronistoria - </div>
+            <div class="mdc-typography--headline3 title"> - Cronistoria - </div>
             <div class="mdc-typography--body1 subTitle">del giacimento di titanio nel parco del beigua</div>
 
             <div class="stone-section" bind:clientHeight>

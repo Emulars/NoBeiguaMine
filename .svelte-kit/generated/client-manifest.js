@@ -14,6 +14,7 @@ export const components = [
 	() => import("..\\..\\src\\routes\\Art\\Article_8.svelte"),
 	() => import("..\\..\\src\\routes\\Art\\Article_9.svelte"),
 	() => import("..\\..\\src\\routes\\articles.svelte"),
+	() => import("..\\..\\src\\routes\\cookie_policy.svelte"),
 	() => import("..\\..\\src\\routes\\index.svelte"),
 	() => import("..\\..\\src\\routes\\privacy&policy.svelte"),
 	() => import("..\\..\\src\\routes\\timeline.svelte"),
@@ -21,11 +22,12 @@ export const components = [
 ];
 
 export const dictionary = {
-	"": [[0, 13], [1]],
+	"": [[0, 14], [1]],
 	"articles": [[0, 12], [1]],
-	"privacy&policy": [[0, 14], [1]],
-	"timeline": [[0, 15], [1]],
-	"whoami": [[0, 16], [1]],
+	"cookie_policy": [[0, 13], [1]],
+	"privacy&policy": [[0, 15], [1]],
+	"timeline": [[0, 16], [1]],
+	"whoami": [[0, 17], [1]],
 	"Art/Article_1": [[0, 2], [1]],
 	"Art/Article_10": [[0, 3], [1]],
 	"Art/Article_2": [[0, 4], [1]],

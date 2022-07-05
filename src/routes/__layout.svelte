@@ -49,6 +49,7 @@
 	<slot />
 </div>
 
+
 <Footer />
 <Cookies />
 {#if activate_banner}
