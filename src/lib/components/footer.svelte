@@ -7,187 +7,210 @@
 	//import Cookies from "./cookies.svelte";
 </script>
 
-
 <main>
 	<!-- Desktop -->
 	<MediaQuery query="(min-width: 1281px)" let:matches>
-        {#if matches}
-        <div class="root desktop">
-            <div class="footer">
-				<span class="block">
-					<div class="disposition_contact" >
-						<div>
-							<img class="logoFooter" src={Logofooter} alt="My logo" />
+		{#if matches}
+			<div class="root desktop">
+				<div class="footer">
+					<span class="block">
+
+						<div class="disposition_contact">
+							<div class="imgfootmr">
+								<img
+									class="logoFooter"
+									src={Logofooter}
+									alt="My logo"
+								/>
+							</div>
 						</div>
-						<div>
+
+						<div class="menu">
 							<hr class="solid" />
 							<p><b>MENU</b></p>
-				
-							<a class="links" href="/articles">Articoli</a><br /><br />
-							<a class="links" href="/timeline">Cronostoria</a><br /><br />
+
+							<a class="links" href="/articles">Articoli</a><br
+							/><br />
+							<a class="links" href="/timeline">Cronostoria</a><br
+							/><br />
 							<a class="links" href="/whoami">Chi siamo</a>
 						</div>
-					</div>
 
-					<div class="disposition">
-						<hr class="solid" />
-						<p><b>CONTATTI</b></p>
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={Map}
-								alt="address"
-							/>
-							<p>indirizzo sede amministrativa</p>
+						<div class="disposition">
+							<hr class="solid" />
+							<p><b>CONTATTI</b></p>
+							<div class="iconf">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={Map}
+									alt="address"
+								/>
+								<p>indirizzo sede amministrativa</p>
+							</div>
+							<div class="iconf">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={Phone}
+									alt="number"
+								/>
+								<p>(+39) 342 1234567</p>
+							</div>
+							<div class="iconf">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={At}
+									alt="email"
+								/>
+								<p>info@mountance.it</p>
+							</div>
 						</div>
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={Phone}
-								alt="number"
-							/>
-							<p>(+39) 342 1234567</p>
-						</div>
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={At}
-								alt="email"
-							/>
-							<p>info@mountance.it</p>
-						</div>
-					</div>
-				</span>
+					</span>
+				</div>
 			</div>
-        </div>
-        {/if}
-    </MediaQuery>
+		{/if}
+	</MediaQuery>
 
 	<!-- Tablet -->
 	<MediaQuery query="(min-width: 541px) and (max-width: 1280px)" let:matches>
-        {#if matches}
-        <div class="root tablet">
-            <div class="footer">
-				<span class="block">
-					<div class="disposition_contact">
-						<div>
-							<img class="logoFooter" src={Logofooter} alt="My logo" />
-						</div>
-						<div>
-							<hr class="solid" />
-							<p><b>MENU</b></p>
-				
-							<a class="links" href="/articles">Articoli</a><br /><br />
-							<a class="links" href="/timeline">Cronostoria</a><br /><br />
-							<a class="links" href="/whoami">Chi siamo</a>
-						</div>
-					</div>
+		{#if matches}
+			<div class="root tablet">
+				<div class="footer">
+					<span class="block">
+						<div class="disposition_contact">
+							<div>
+								<img
+									class="logoFooter"
+									src={Logofooter}
+									alt="My logo"
+								/>
+							</div>
+							<div>
+								<hr class="solid" />
+								<p><b>MENU</b></p>
 
-					<div class="disposition">
-						<hr class="solid" />
-						<p><b>CONTATTI</b></p>
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={Map}
-								alt="address"
-							/>
-							<p>indirizzo sede amministrativa</p>
+								<a class="links" href="/articles">Articoli</a
+								><br /><br />
+								<a class="links" href="/timeline">Cronostoria</a
+								><br /><br />
+								<a class="links" href="/whoami">Chi siamo</a>
+							</div>
 						</div>
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={Phone}
-								alt="number"
-							/>
-							<p>(+39) 342 1234567</p>
+
+						<div class="disposition">
+							<hr class="solid" />
+							<p><b>CONTATTI</b></p>
+							<div class="iconf">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={Map}
+									alt="address"
+								/>
+								<p>indirizzo sede amministrativa</p>
+							</div>
+							<div class="iconf">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={Phone}
+									alt="number"
+								/>
+								<p>(+39) 342 1234567</p>
+							</div>
+							<div class="iconf">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={At}
+									alt="email"
+								/>
+								<p>info@mountance.it</p>
+							</div>
 						</div>
-						<div class="iconf">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={At}
-								alt="email"
-							/>
-							<p>info@mountance.it</p>
-						</div>
-					</div>	
-				</span>
+					</span>
+				</div>
 			</div>
-        </div>
-        {/if}
-    </MediaQuery>
+		{/if}
+	</MediaQuery>
 
 	<!-- Mobile -->
 	<MediaQuery query="(max-width: 540px)" let:matches>
-        {#if matches}
-        <div class="root mobile">
-			<div class="footer">
-				<span class="block">
-					<img class="logoFooter" src={Logofooter} alt="My logo" />
+		{#if matches}
+			<div class="root mobile">
+				<div class="footer">
+					<span class="block">
+						<img
+							class="logoFooter"
+							src={Logofooter}
+							alt="My logo"
+						/>
 
-					<div class="disposition">
-						<hr class="solid" />
-						<p><b>MENU</b></p>
-			
-						<a class="links" href="/articles">Articoli</a><br /><br />
-						<a class="links" href="/timeline">Cronostoria</a><br /><br />
-						<a class="links" href="/whoami">Chi siamo</a>
-					</div>
+						<div class="disposition">
+							<hr class="solid" />
+							<p><b>MENU</b></p>
 
-					<div class="disposition">
-						<hr class="solid" />
-						<p><b>CONTATTI</b></p>
-						<div class="iconf-mobile">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={Map}
-								alt="address"
-							/>
-							<p style="width:60%">indirizzo sede amministrativa</p>
+							<a class="links" href="/articles">Articoli</a><br
+							/><br />
+							<a class="links" href="/timeline">Cronostoria</a><br
+							/><br />
+							<a class="links" href="/whoami">Chi siamo</a>
 						</div>
-						<div class="iconf-mobile">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={Phone}
-								alt="number"
-							/>
-							<p>(+39) 342 1234567</p>
-						</div>
-						<div class="iconf-mobile">
-							<img
-								style="height: 20px; width:20px; margin-right:10px;"
-								src={At}
-								alt="email"
-							/>
-							<p>info@mountance.it</p>
-						</div>
-					</div>
 
-
-				</span>
+						<div class="disposition">
+							<hr class="solid" />
+							<p><b>CONTATTI</b></p>
+							<div class="iconf-mobile">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={Map}
+									alt="address"
+								/>
+								<p style="width:60%">
+									indirizzo sede amministrativa
+								</p>
+							</div>
+							<div class="iconf-mobile">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={Phone}
+									alt="number"
+								/>
+								<p>(+39) 342 1234567</p>
+							</div>
+							<div class="iconf-mobile">
+								<img
+									style="height: 20px; width:20px; margin-right:10px;"
+									src={At}
+									alt="email"
+								/>
+								<p>info@mountance.it</p>
+							</div>
+						</div>
+					</span>
+				</div>
 			</div>
-        </div>
-        {/if}
-    </MediaQuery> 
+		{/if}
+	</MediaQuery>
 </main>
 
 <style>
-
 	/* Generic */
 
 	.disposition_contact {
 		font-family: "Roboto Light", sans-serif;
 		text-align: left;
-		display: flex;
-		justify-content: space-between;
-    	width: 290px;
+	}
+	.imgfootmr {
+		width: 30%;
+	}
+	.menu {
+		font-family: "Roboto Light", sans-serif;
+		text-align: left;
 	}
 
 	.disposition {
 		font-family: "Roboto Light", sans-serif;
 		text-align: left;
 	}
-	.iconf,a {
+	.iconf,
+	a {
 		margin: 10px;
 	}
 
@@ -215,13 +238,12 @@
 		color: white;
 		text-align: center;
 		padding-top: 30px;
-		padding-bottom: 15px;
+		padding-bottom: 30px;
 	}
 
 	.block {
 		display: flex;
 		justify-content: space-around;
-		align-items: center;
 		width: 100%;
 		height: 100%;
 		color: white;
@@ -243,7 +265,7 @@
 	.desktop .tablet hr.solid {
 		display: none;
 	}
-	
+
 	/* Mobile 480px or lower*/
 	.mobile hr.solid {
 		border-top: 1px solid #ffffff;
@@ -265,9 +287,10 @@
 		width: 150px;
 		justify-content: center;
 	}
-	
+
 	.mobile .disposition {
 		font-family: "Roboto Light", sans-serif;
 		text-align: center;
+		padding-top: 15px;
 	}
 </style>

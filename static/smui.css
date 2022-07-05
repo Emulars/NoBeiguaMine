@@ -2773,7 +2773,6 @@ svg.mdc-button__icon {
 .mdc-top-app-bar__section--align-start {
     justify-content: flex-start;
     order: -1;
-    margin-left: 70px;
 }
 
 .mdc-top-app-bar__section--align-end {

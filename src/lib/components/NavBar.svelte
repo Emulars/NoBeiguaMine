@@ -24,15 +24,15 @@
     <MediaQuery query="(min-width: 1281px)" let:matches>
         {#if matches}
         <div class="root desktop">
-            <TopAppBar bind:this={topAppBar} variant="standard" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%);">
+            <TopAppBar bind:this={topAppBar} variant="standard" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%); padding: 8px 150px;">
                 <Row>
                     <!-- LOGO -->
-                    <Section>
+                    <Section style="width:50%">
                         <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
                     <!-- MENU -->
-                    <Section align="end" toolbar>
+                    <Section align="end" style="width:50%" toolbar>
                         <a href="https://www.instagram.com/mountain_resistance_/" target="_blank" rel="noopener noreferrer">
                             <img
                             style="height: 20px; width:20px; margin-right:10px;"
@@ -67,7 +67,7 @@
             <TopAppBar bind:this={topAppBar} variant="standard" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%);">
                 <Row>
                     <!-- LOGO -->
-                    <Section>
+                    <Section style="margin-left: 60px;">
                         <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
@@ -107,7 +107,7 @@
             <TopAppBar bind:this={topAppBar} variant="standard" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%);">
                 <Row>
                     <!-- LOGO -->
-                    <Section>
+                    <Section style="margin-left: 60px;">
                         <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
