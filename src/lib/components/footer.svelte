@@ -17,11 +17,13 @@
 
 						<div class="disposition_contact">
 							<div class="imgfootmr">
+								<a href="https://mountainresistance.vercel.app/">
 								<img
 									class="logoFooter"
 									src={Logofooter}
 									alt="My logo"
 								/>
+							</a>
 							</div>
 						</div>
 
@@ -78,13 +80,14 @@
 					<span class="block">
 						<div class="disposition_contact">
 							<div>
+								<a href="https://mountainresistance.vercel.app/">
 								<img
 									class="logoFooter"
 									src={Logofooter}
 									alt="My logo"
-								/>
+								/></a>
 							</div>
-							<div>
+							<div class="menu">
 								<hr class="solid" />
 								<p><b>MENU</b></p>
 
@@ -94,7 +97,7 @@
 								><br /><br />
 								<a class="links" href="/whoami">Chi siamo</a>
 							</div>
-						</div>
+						
 
 						<div class="disposition">
 							<hr class="solid" />
@@ -124,6 +127,7 @@
 								<p>info@mountance.it</p>
 							</div>
 						</div>
+						<div>
 					</span>
 				</div>
 			</div>
@@ -136,11 +140,13 @@
 			<div class="root mobile">
 				<div class="footer">
 					<span class="block">
+						<a href="https://mountainresistance.vercel.app/">
 						<img
 							class="logoFooter"
 							src={Logofooter}
 							alt="My logo"
 						/>
+						</a>
 
 						<div class="disposition">
 							<hr class="solid" />
@@ -265,7 +271,9 @@
 	.desktop .tablet hr.solid {
 		display: none;
 	}
-
+	/* .tablet .block{
+		display: flex;
+	} */
 	/* Mobile 480px or lower*/
 	.mobile hr.solid {
 		border-top: 1px solid #ffffff;
