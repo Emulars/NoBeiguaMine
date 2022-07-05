@@ -380,6 +380,9 @@
             </div>
         {/if}
     </MediaQuery>
+
+    <div class="spacer" />
+
 </main>
 
 <style>
@@ -423,5 +426,10 @@
         text-decoration: none;
         color: #557B83;
     }
+
+    .spacer {
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
     
 </style>

@@ -33,8 +33,8 @@
         margin-bottom: 0;
         text-align: center;
         color: white;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         background-color: #557B83;
         font-family: "Roboto Light", sans-serif;
     }
