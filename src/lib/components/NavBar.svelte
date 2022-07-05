@@ -24,7 +24,7 @@
     <MediaQuery query="(min-width: 1281px)" let:matches>
         {#if matches}
         <div class="root desktop">
-            <TopAppBar bind:this={topAppBar} variant="standard" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%); padding: 8px 150px;">
+            <TopAppBar bind:this={topAppBar} variant="fixed" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%); padding: 8px 150px;">
                 <Row>
                     <!-- LOGO -->
                     <Section style="width:50%">
@@ -64,7 +64,7 @@
     <MediaQuery query="(min-width: 481px) and (max-width: 1280px)" let:matches>
         {#if matches}
         <div class="root tablet">
-            <TopAppBar bind:this={topAppBar} variant="standard" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%);">
+            <TopAppBar bind:this={topAppBar} variant="fixed" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%);">
                 <Row>
                     <!-- LOGO -->
                     <Section style="margin-left: 60px;">
@@ -104,7 +104,7 @@
     <MediaQuery query="(max-width: 480px)" let:matches>
         {#if matches}
         <div class="root mobile">
-            <TopAppBar bind:this={topAppBar} variant="standard" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%);">
+            <TopAppBar bind:this={topAppBar} variant="fixed" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%);">
                 <Row>
                     <!-- LOGO -->
                     <Section style="margin-left: 60px;">

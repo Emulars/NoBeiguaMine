@@ -13,7 +13,7 @@
                 <img class="description" src={mid} alt="Description" />
                 <div class="Herotxt">
                     <h1><img class="logoh1" src={Logoh1} alt="logop1" /></h1>
-                    <p class="mdc-typography--subtitle2">
+                    <div class="mdc-typography--headline5">
                         Scoperto nel 1970,il giacimento di titanio prensente nel Parco<br/> 
                         del Beigua presenta un'enorme minaccia per l'ambiente e per gli<br/>
                         abitanti della zona. <br />
@@ -21,7 +21,7 @@
                         <br />
                         della miniera che causerebbe gravi problemi alla popolazione e<br />
                         alla biodiversita presenti nella zona.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                 <img class="description" src={mid} alt="Description" />
                 <div class="Herotxt">
                     <h1><img class="logoh1" src={Logoh1} alt="logop1" /></h1>
-                    <p class="mdc-typography--subtitle1">
+                    <div class="mdc-typography--headline5">
                         Scoperto nel 1970,il giacimento di titanio prensente nel Parco del
                         Beigua <br /> presenta un'enorme minaccia per l'ambiente e per gli
                         abitanti della zona. <br />
@@ -44,7 +44,7 @@
                         <br />
                         della miniera che causerebbe gravi problemi alla popolazione e<br />
                         alla biodiversita presenti nella zona.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                 <img class="description" src={mid} alt="Description" />
                 <div class="Herotxt">
                     <h1><img class="logoh1" src={Logoh1} alt="logop1" /></h1>
-                    <p class="mdc-typography--subtitle2">
+                    <div class="mdc-typography--headline5">
                         Scoperto nel 1970,il giacimento di titanio prensente nel Parco del
                         Beigua presenta un'enorme minaccia per l'ambiente e per gli
                         abitanti della zona. <br />
@@ -67,7 +67,7 @@
                         <br />
                         della miniera che causerebbe gravi problemi alla popolazione e<br />
                         alla biodiversita presenti nella zona.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                 <img class="description" src={mid} alt="Description" />
                 <div class="Herotxt">
                     <h1><img class="logoh1" src={Logoh1} alt="logop1" /></h1>
-                    <p class="mdc-typography--subtitle2">
+                    <div class="mdc-typography--headline5">
                         Scoperto nel 1970,il giacimento di titanio prensente nel Parco del
                         Beigua <br /> presenta un'enorme minaccia per l'ambiente e per gli
                         abitanti della zona. <br />
@@ -90,7 +90,7 @@
                         <br />
                         della miniera che causerebbe gravi problemi alla popolazione e<br />
                         alla biodiversita presenti nella zona.
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,10 +123,15 @@
         transform: translate(-50%, -50%);
         color: white;
         width: 80%;
+        font-size:small;
     }
     .Herotxt,p {
         font-family: "Roboto Light", sans-serif;
         font-size: medium;
+    }
+
+    .subTitle{
+        font-size: 0.875em;
     }
 
     .description {
