@@ -38,7 +38,7 @@
                 </div>
 				<div class="more_timeline">
 					<div class="buttom">
-						<a class="text_b" href="/timeline_parallax">Mostra tutto</a>
+						<a class="text_b" href="/timeline">Mostra tutto</a>
 					</div>
 				</div>
 	
@@ -65,7 +65,6 @@
 							<img class="image-container" src={titanium} alt="titanium" style="width: 200px; height:200px; margin-left:50px;"/>
 						</div>
 					</div>
-					
 
 					<div class="column">
 						<div class="node-right">
@@ -76,7 +75,7 @@
 				</div>
 				<div class="more_timeline">
 					<div class="buttom">
-						<a class="text_b" href="/timeline_parallax">Mostra tutto</a>
+						<a class="text_b" href="/timeline">Mostra tutto</a>
 					</div>
 				</div>
 			</div>
@@ -198,6 +197,7 @@
 	/* BUTTON */
 	.more_timeline {
         text-align: center;
+        margin: -15px 0 0 0;
         padding-top: 15px;
         padding-bottom: 30px;
 		background-color:#557B83;

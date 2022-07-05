@@ -94,15 +94,9 @@
                     </div>
                     <div class="cards">
                         <!--CARDS-->
-                        <div style="width: 276px;">
-                            <Card_1 />
-                        </div>
-                        <div style="width: 276px;">
-                            <Card_2 />
-                        </div>
-                        <div style="width: 276px;">
-                            <Card_3 />
-                        </div>
+                        <Card_1/>
+                        <Card_2/>
+                        <Card_3/>
                     </div>
                     <div class="more_articles">
                         <div class="buttom">
