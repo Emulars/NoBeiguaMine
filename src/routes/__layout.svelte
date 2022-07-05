@@ -2,11 +2,8 @@
 	import NavBar from "$lib/components/NavBar.svelte";
 	import Footer from "$lib/components/footer.svelte";
 	import Cookies from "$lib/components/cookies.svelte";
+	import Analytics from "$lib/components/analytics.svelte";
 
-	// Mix Panel import
-	import mixpanel from 'mixpanel-browser';
-	// Enabling the debug mode flag is useful during implementation,
-	// but it's recommended you remove it for production
 
 	// Cookie Banner
 	const choices = {
@@ -32,8 +29,6 @@
 
 	function initAnalytics () {
     	// do something with segment.io or google analytics etc
-		mixpanel.init('675938c9f0ea1a0f06864f1347ce196f', {debug: true}); 
-		mixpanel.track('Sign up');
   	}
 
 	function disableBanner(){
@@ -41,7 +36,7 @@
 	}
 </script>
 
-<!-- NavBar  -->
+<Analytics />
 <NavBar/>
 
 <!-- Page Container -->
