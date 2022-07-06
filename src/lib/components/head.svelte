@@ -52,7 +52,7 @@
     </MediaQuery>
 
     <!-- Mobile -->
-    <MediaQuery query="(min-width: 361px) and (max-width: 600px)" let:matches>
+    <MediaQuery query="(min-width: 360px) and (max-width: 600px)" let:matches>
         {#if matches}
         <div class="root mobile">
             <div class="Heroimg">
@@ -75,14 +75,14 @@
     </MediaQuery> 
 
     <!-- Foldable -->
-    <MediaQuery query="(max-width: 360px)" let:matches>
+    <MediaQuery query="(max-width: 359px)" let:matches>
         {#if matches}
         <div class="root foldable">
             <div class="Heroimg">
                 <img class="description" src={mid} alt="Description" />
                 <div class="Herotxt">
                     <h1><img class="logoh1" src={Logoh1} alt="logop1" /></h1>
-                    <div class="mdc-typography--headline5">
+                    <div class="mdc-typography--headline7">
                         Scoperto nel 1970,il giacimento di titanio prensente nel Parco del
                         Beigua <br /> presenta un'enorme minaccia per l'ambiente e per gli
                         abitanti della zona. <br />

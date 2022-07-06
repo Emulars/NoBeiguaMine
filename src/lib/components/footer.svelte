@@ -87,6 +87,7 @@
 									alt="My logo"
 								/></a>
 							</div>
+						</div>
 							<div class="menu">
 								<hr class="solid" />
 								<p><b>MENU</b></p>
@@ -200,19 +201,19 @@
 	/* Generic */
 
 	.disposition_contact {
-		font-family: "Roboto Light", sans-serif;
+		font-family: "Oswald", sans-serif;
 		text-align: left;
 	}
 	.imgfootmr {
 		width: 30%;
 	}
 	.menu {
-		font-family: "Roboto Light", sans-serif;
+		font-family: "Oswald", sans-serif;
 		text-align: left;
 	}
 
 	.disposition {
-		font-family: "Roboto Light", sans-serif;
+		font-family: "Oswald", sans-serif;
 		text-align: left;
 	}
 	.iconf,
@@ -271,9 +272,7 @@
 	.desktop .tablet hr.solid {
 		display: none;
 	}
-	/* .tablet .block{
-		display: flex;
-	} */
+
 	/* Mobile 480px or lower*/
 	.mobile hr.solid {
 		border-top: 1px solid #ffffff;
@@ -297,8 +296,9 @@
 	}
 
 	.mobile .disposition {
-		font-family: "Roboto Light", sans-serif;
+		font-family: "Oswald", sans-serif;
 		text-align: center;
 		padding-top: 15px;
 	}
+	
 </style>

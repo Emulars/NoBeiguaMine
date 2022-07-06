@@ -49,7 +49,7 @@
 		<MediaQuery query="(max-width: 899px)" let:matches>
 			{#if matches}
 			<div class="root mobile">
-				<div class="mdc-typography--headline3 title"> - Cronistoria - </div>
+				<div class="mdc-typography--headline4 title"> - Cronistoria - </div>
             	<div class="mdc-typography--body2 subTitle">del giacimento di titanio nel parco del beigua</div>
 				<!-- FIRST SECTION -->
 				<div class="section first">
@@ -88,7 +88,7 @@
 <style>
 	.title{ 
 		text-align: center;
-		margin-top: 125px;
+		margin-top: 70px;
 		margin-bottom: 15px;
         font-family:'Oswald',sans-serif;
         font-weight: 400;
@@ -97,7 +97,7 @@
 	}
 	.subTitle{ 
         text-align: center;
-        margin-bottom: 80px;
+        margin-bottom: 70px;
         font-family:'Roboto',sans-serif;
         font-size: larger;
     }
@@ -160,25 +160,25 @@
 
 	/* DESKTOP */
 	.desktop .node-left{
-        margin: 33% 0% 0% 20%; /*33% 0% 0% 20%;*/
+        margin: 21% 0% 0% 20%; /*21% 0% 0% 20%;*/
         font-family:'Roboto',sans-serif;
         color: white;
     }
 
     .desktop .node-middle{
-        margin: 53% 33% 0% 25%; /*33% 33% 0% 33%;*/
+        margin: 65% 33% 0% 25%; /*65% 33% 0% 25%;*/
         align-items: center;
     }
 
     .desktop .node-right{
-        margin: 83% 20% 33% 0%; /*83% 20% 33% 0%;*/
+        margin: 100% 20% 21% 0%; /*100% 20% 33% 0%;*/
         font-family:'Roboto',sans-serif;
         color: white;
     }
 
     /* MOBILE */
     .mobile .node-left{
-        margin: 20% 10% 20% 10%; /*33% 0% 0% 20%;*/
+        margin: 17% 10% 17% 10%; /*33% 0% 0% 20%;*/
         font-family:'Roboto',sans-serif;
         color: white;
     }
@@ -189,7 +189,7 @@
     }
 
     .mobile .node-right{
-        margin: 20% 10% 33% 10%; /*83% 20% 33% 0%;*/
+        margin: 17% 10% 17% 10%; /*83% 20% 33% 0%;*/
         font-family:'Roboto',sans-serif;
         color: white;
     }
@@ -198,8 +198,8 @@
 	.more_timeline {
         text-align: center;
         margin: -15px 0 0 0;
-        padding-top: 15px;
-        padding-bottom: 45px;
+        padding-top: 0px;
+        padding-bottom: 70px;
 		background-color:#557B83;
     }
     .buttom {

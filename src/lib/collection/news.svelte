@@ -14,7 +14,7 @@
                     <!-- Cards -->
                     <div
                         class="mdc-typography--headline3 News"
-                        style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                        style="text-align:center; font-family:'Oswald Regular',sans-serif;"
                     >
                         <div class="mdc-typography--headline3 title">
                             - Ultime Notizie -
@@ -50,7 +50,7 @@
                     <!-- Cards -->
                     <div
                         class="mdc-typography--headline3 News"
-                        style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                        style="text-align:center; font-family:'Oswald Regular',sans-serif;"
                     >
                         <div class="mdc-typography--headline3 title">
                             - Ultime Notizie -
@@ -86,7 +86,7 @@
                     <!-- Cards -->
                     <div
                         class="mdc-typography--headline3 News"
-                        style="text-align:center; padding-top:30px; padding-bottom:15px; font-family:'Oswald Regular',sans-serif;"
+                        style="text-align:center; font-family:'Oswald Regular',sans-serif;"
                     >
                         <div class="mdc-typography--headline4 title">
                             - Ultime Notizie -
@@ -122,8 +122,8 @@
     }
     .more_articles {
         text-align: center;
-        padding-top: 15px;
-        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-bottom: 70px;
     }
     .buttom {
         background-color: #e5efc1;
@@ -151,8 +151,8 @@
     }
 
     .title {
-        margin-top: 30px;
-        margin-bottom: 15px;
+        margin-top: 70px;
+        margin-bottom: 50px;
         font-family: "Oswald", sans-serif;
         font-weight: 400;
         color:#39aea9;
@@ -177,5 +177,8 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+    }
+    .mobile .title{
+        letter-spacing: 2px;
     }
 </style>
