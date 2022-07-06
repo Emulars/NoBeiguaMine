@@ -23,11 +23,77 @@
 </script>
 
 <main>
-	
 	<!-- Desktop -->
-	<MediaQuery query="(min-width: 992px)" let:matches>
+	<MediaQuery query="(min-width: 1281px)" let:matches>
 		{#if matches}
 			<div class="mdc-typography--headline3 title" style="margin-top: 80px;">- Articoli -</div>
+			<div class="root desktop">
+				<div class="cards">
+					<!--CARDS-->
+					<div class="perfect-card">
+						<Card_1 />
+					</div>
+					<div class="perfect-card">
+						<Card_2 />
+					</div>
+					<div class="perfect-card">
+						<Card_3 />
+					</div>
+				</div>
+
+				<div class="cards">
+					<!--CARDS-->
+					<div class="perfect-card">
+						<Card_4 />
+					</div>
+					<div class="perfect-card">
+						<Card_5 />
+					</div>
+					<div class="perfect-card">
+						<Card_6 />
+					</div>
+				</div>
+
+				<div class="cards">
+					<!--CARDS-->
+					<div class="perfect-card">
+						<Card_7 />
+					</div>
+					<div class="perfect-card">
+						<Card_8 />
+					</div>
+					<div class="perfect-card">
+						<Card_9 />
+					</div>
+				</div>
+
+				{#if !shown}
+					<div class="more_articles">
+						<div class="buttom">
+							<a on:click={show} class="text_b" href="/articles"
+								>Mostra altri Articoli</a
+							>
+						</div>
+					</div>
+				{/if}
+
+				{#if shown}
+					<div class="cards">
+						<div class="perfect-card"></div>
+						<div class="perfect-card">
+							<Card_10 />
+						</div >
+						<div class="perfect-card"></div>
+					</div>
+				{/if}
+			</div>
+		{/if}
+	</MediaQuery>
+
+	<!-- little Desktop -->
+	<MediaQuery query="(min-width: 992px) and (max-width: 1280px)"let:matches>
+		{#if matches}
+			<div class="mdc-typography--headline3 title" style="margin-top: -20px;">- Articoli -</div>
 			<div class="root desktop">
 				<div class="cards">
 					<!--CARDS-->
