@@ -147,7 +147,9 @@
             </AutoAdjust>
         </div>
         {/if}
-    </MediaQuery> 
+    </MediaQuery>
+    
+    
 
 
 </main>

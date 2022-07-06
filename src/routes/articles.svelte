@@ -23,11 +23,11 @@
 </script>
 
 <main>
-	<div class="mdc-typography--headline3 title">- Articoli -</div>
-
+	
 	<!-- Desktop -->
 	<MediaQuery query="(min-width: 992px)" let:matches>
 		{#if matches}
+			<div class="mdc-typography--headline3 title">- Articoli -</div>
 			<div class="root desktop">
 				<div class="cards">
 					<!--CARDS-->
@@ -94,6 +94,7 @@
 	<!-- Tablet -->
 	<MediaQuery query="(min-width: 768px) and (max-width: 991px)" let:matches>
 		{#if matches}
+			<div class="mdc-typography--headline3 title">- Articoli -</div>
 			<div class="root tablet">
 				<div class="cards">
 					<!--CARDS-->
@@ -152,6 +153,28 @@
 
 	<MediaQuery query="(max-width: 767px)" let:matches>
 		{#if matches}
+		<div class="mdc-typography--headline3 titlecell">- Articoli -</div>
+			<div class="root mobile">
+				<div class="cards">
+					<!--CARDS-->
+						<Card_1 />
+						<Card_2 />
+						<Card_3 />
+						<Card_4 />
+						<Card_5 />
+						<Card_6 />
+						<Card_7 />
+						<Card_8 />
+						<Card_9 />
+						<Card_10 />
+				</div>
+				<div class="spacer" />
+			</div>
+		{/if}
+	</MediaQuery>
+
+	<MediaQuery query="(max-width: 480px)" let:matches>
+        {#if matches}
 			<div class="root mobile">
 				<div class="cards">
 					<!--CARDS-->
@@ -176,14 +199,29 @@
 	.title {
 		text-align: center;
 		font-family: "Oswald", sans-serif;
-		margin-top: 120px;
-		margin-bottom: 30px;
+		margin-top: 80px;
 		text-decoration: underline;
 		text-underline-offset: 0.5em;
 		color: #39aea9;
 		font-weight: 400;
 		text-transform: uppercase;
 		letter-spacing: 3px;
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	.titlecell{
+		text-align: center;
+		font-family: "Oswald", sans-serif;
+		margin-top: 24px;
+		text-decoration: underline;
+		text-underline-offset: 0.5em;
+		color: #39aea9;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		padding-top: 70px;
+		padding-bottom: 70px;
 	}
 
 	.more_articles {
