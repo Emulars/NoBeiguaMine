@@ -27,12 +27,12 @@
             <TopAppBar bind:this={topAppBar} variant="fixed" style="box-shadow: 0 2px 10px -2px rgb(0 0 0 / 20%); padding: 8px 150px;">
                 <Row>
                     <!-- LOGO -->
-                    <Section style="width:50%">
-                        <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
+                    <Section style="width:50%; margin-left:-48px;">
+                        <a href="https://mountainresistance.it/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
                     <!-- MENU -->
-                    <Section align="end" style="width:50%" toolbar>
+                    <Section align="end" style="width:50%; margin-right:-48px;" toolbar>
                         <a href="https://www.instagram.com/mountain_resistance_/" target="_blank" rel="noopener noreferrer">
                             <img
                             style="height: 20px; width:20px; margin-right:10px;"
@@ -68,7 +68,7 @@
                 <Row>
                     <!-- LOGO -->
                     <Section style="margin-left: 60px;">
-                        <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
+                        <a href="https://mountainresistance.it/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
                     <!-- MENU -->
@@ -108,7 +108,7 @@
                 <Row>
                     <!-- LOGO -->
                     <Section style="margin-left: 60px;">
-                        <a href="https://mountainresistance.vercel.app/"><img class="LogoP" src={Logo} alt="My logo" /></a>
+                        <a href="https://mountainresistance.it/"><img class="LogoP" src={Logo} alt="My logo" /></a>
                     </Section>
             
                     <!-- MENU -->

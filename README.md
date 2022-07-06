@@ -8,7 +8,7 @@ Say no to the mine in the Beigua Regional Natural Park!
 
 ## Live demo
 
-<https://mountainresistance.vercel.app/>
+<https://mountainresistance.it>
 
 
 ## Gruppo 3

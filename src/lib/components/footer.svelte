@@ -17,7 +17,7 @@
 
 						<div class="disposition_contact">
 							<div class="imgfootmr">
-								<a href="https://mountainresistance.vercel.app/">
+								<a href="https://mountainresistance.it/">
 								<img
 									class="logoFooter"
 									src={Logofooter}
@@ -80,7 +80,7 @@
 					<span class="block">
 						<div class="disposition_contact">
 							<div>
-								<a href="https://mountainresistance.vercel.app/">
+								<a href="https://mountainresistance.it/">
 								<img
 									class="logoFooter"
 									src={Logofooter}
@@ -141,7 +141,7 @@
 			<div class="root mobile">
 				<div class="footer">
 					<span class="block">
-						<a href="https://mountainresistance.vercel.app/">
+						<a href="https://mountainresistance.it/">
 						<img
 							class="logoFooter"
 							src={Logofooter}
