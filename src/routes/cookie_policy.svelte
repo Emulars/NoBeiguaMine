@@ -15,7 +15,7 @@
                     <div class="mdc-typography--body1 text">
                         Ai sensi dell’articolo 13 del Regolamento UE n. 679/2016 – Regolamento Generale sulla Protezione dei Dati (di seguito “Regolamento” o “GDPR”) – 
                         e in osservanza di quanto previsto dal Provvedimento generale del Garante privacy dell’8 maggio 2014, LE PICCOLE RUNE SRL, in qualità di Titolare 
-                        del trattamento, fornisce le seguenti informazioni relative ai cookie installati sul sito <a href="https://www.w3.org/Provider/Style/dummy.html">https://www.mountainresistance.it/</a>
+                        del trattamento, fornisce le seguenti informazioni relative ai cookie installati sul sito <a href="https://mountainresistance">https://www.mountainresistance.it/</a>
                     </div>
 
                     <div class="mdc-typography--headline5 subtitle">
@@ -141,7 +141,7 @@
                     <div class="mdc-typography--body1 text">
                         Ai sensi dell’articolo 13 del Regolamento UE n. 679/2016 – Regolamento Generale sulla Protezione dei Dati (di seguito “Regolamento” o “GDPR”) – 
                         e in osservanza di quanto previsto dal Provvedimento generale del Garante privacy dell’8 maggio 2014, LE PICCOLE RUNE SRL, in qualità di Titolare 
-                        del trattamento, fornisce le seguenti informazioni relative ai cookie installati sul sito <a href="https://www.w3.org/Provider/Style/dummy.html">https://www.mountainresistance.it/</a>
+                        del trattamento, fornisce le seguenti informazioni relative ai cookie installati sul sito <a href="https://mountainresistance">https://www.mountainresistance.it/</a>
                     </div>
 
                     <div class="mdc-typography--headline5 subtitle">
@@ -267,7 +267,7 @@
                     <div class="mdc-typography--body2 text">
                         Ai sensi dell’articolo 13 del Regolamento UE n. 679/2016 – Regolamento Generale sulla Protezione dei Dati (di seguito “Regolamento” o “GDPR”) – 
                         e in osservanza di quanto previsto dal Provvedimento generale del Garante privacy dell’8 maggio 2014, LE PICCOLE RUNE SRL, in qualità di Titolare 
-                        del trattamento, fornisce le seguenti informazioni relative ai cookie installati sul sito <a href="https://www.w3.org/Provider/Style/dummy.html">https://www.mountainresistance.it/</a>
+                        del trattamento, fornisce le seguenti informazioni relative ai cookie installati sul sito <a href="https://mountainresistance.it">https://mountainresistance.it/</a>
                     </div>
 
                     <div class="mdc-typography--headline6 subtitle">
