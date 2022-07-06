@@ -145,7 +145,7 @@
     <MediaQuery query="(min-width: 481px) and (max-width: 899px)" let:matches>
         {#if matches}
         <div class="root tablet">
-            <div class="mdc-typography--headline2 title"> - Cronistoria - </div>
+            <div class="mdc-typography--headline2 titlecell"> - Cronistoria - </div>
             <div class="mdc-typography--body1 subTitle">del giacimento di titanio nel parco del beigua</div>
 
                 <!-- FIRST SECTION -->
@@ -266,7 +266,7 @@
     <MediaQuery query="(max-width: 480px)" let:matches>
         {#if matches}
         <div class="root mobile">
-            <div class="mdc-typography--headline3 title"> - Cronistoria - </div>
+            <div class="mdc-typography--headline3 titlecell"> - Cronistoria - </div>
             <div class="mdc-typography--body2 subTitle">del giacimento di titanio nel parco del beigua</div>
 
                 <!-- FIRST SECTION -->
@@ -389,16 +389,30 @@
 <style>
     .title{ 
 		text-align: center;
-		margin-top: 125px;
+        margin-top: 24px;
+        margin-bottom: 15px;
+        font-family: 'Oswald',sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding-top: 70px;
+	}
+
+    .titlecell{ 
+		text-align: center;
+		margin-top: 24px;
 		margin-bottom: 15px;
         font-family:'Oswald',sans-serif;
         font-weight: 400;
 		text-transform: uppercase;
 		letter-spacing: 3px;
+        padding-top: 70px;
 	}
+
 	.subTitle{ 
         text-align: center;
-        margin-bottom: 80px;
+        padding-bottom: 70px;
+        margin-bottom: 50px;
         font-family:'Roboto',sans-serif;
         font-size: larger;
     }

@@ -27,7 +27,7 @@
 	<!-- Desktop -->
 	<MediaQuery query="(min-width: 992px)" let:matches>
 		{#if matches}
-			<div class="mdc-typography--headline3 title">- Articoli -</div>
+			<div class="mdc-typography--headline3 title" style="margin-top: 80px;">- Articoli -</div>
 			<div class="root desktop">
 				<div class="cards">
 					<!--CARDS-->
@@ -153,7 +153,7 @@
 
 	<MediaQuery query="(max-width: 767px)" let:matches>
 		{#if matches}
-		<div class="mdc-typography--headline3 titlecell">- Articoli -</div>
+		<div class="mdc-typography--headline3 title">- Articoli -</div>
 			<div class="root mobile">
 				<div class="cards">
 					<!--CARDS-->
@@ -175,6 +175,7 @@
 
 	<MediaQuery query="(max-width: 480px)" let:matches>
         {#if matches}
+		<div class="mdc-typography--headline3 title">- Articoli -</div>
 			<div class="root mobile">
 				<div class="cards">
 					<!--CARDS-->
@@ -196,21 +197,8 @@
 </main>
 
 <style>
-	.title {
-		text-align: center;
-		font-family: "Oswald", sans-serif;
-		margin-top: 80px;
-		text-decoration: underline;
-		text-underline-offset: 0.5em;
-		color: #39aea9;
-		font-weight: 400;
-		text-transform: uppercase;
-		letter-spacing: 3px;
-		padding-top: 70px;
-		padding-bottom: 70px;
-	}
 
-	.titlecell{
+	.title{
 		text-align: center;
 		font-family: "Oswald", sans-serif;
 		margin-top: 24px;
@@ -226,8 +214,8 @@
 
 	.more_articles {
 		text-align: center;
-		padding-top: 15px;
-		padding-bottom: 30px;
+		padding-top: 25px;
+		padding-bottom: 70px;
 	}
 	.buttom {
 		background-color: #e5efc1;
